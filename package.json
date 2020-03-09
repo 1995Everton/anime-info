@@ -1,16 +1,19 @@
 {
-  "name": "teste_1",
+  "name": "anime-info",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "jsdom": "^16.2.0"
+  "author": "Everton Patrik Cardoso",
+  "description": "Plugin intended to collect informing of anime characters through the fandow wiki",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1995Everton/anime-info.git"
   },
-  "devDependencies": {
-    "@types/jsdom": "^16.1.0",
-    "@types/node": "^13.9.0",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+  "homepage": "https://github.com/1995Everton/anime-info.git#readme",
+  "bugs": {
+    "email": "everton_cardoso@live.com",
+    "url": "https://github.com/1995Everton/anime-info/issues"
   },
   "scripts": {
     "build": "tsc",
@@ -18,19 +21,38 @@
     "build:check": "tsc --noEmit",
     "start": "node -r ts-node/register bin/index.js",
     "start:break": "node --inspect-brk -r ts-node/register bin/index.js",
-    "start:debug": "node --inspect -r ts-node/register bin/index.js"
+    "start:debug": "node --inspect -r ts-node/register bin/index.js",
+    "test": "jest --config jestconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test && npm run lint",
+    "preversion" : "npm run lint",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/jsdom": "^16.1.0",
+    "@types/node": "^13.9.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3",
+    "undefined": "^0.1.0"
   },
   "files": [
-    "bin",
-    "lib"
+    "lib/**/*"
   ],
-  "bin": {
-    "my-cli": "./bin/index.js"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "keywords": ["anime","info","json","naruto"]
 }

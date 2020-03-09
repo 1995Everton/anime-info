@@ -1,3 +1,3 @@
-import { GenericPhoto } from "../../shared/models/GenericsPhoto";
+import { GenericPhoto } from '../../shared/models/GenericsPhoto';
 
-export interface Clan extends GenericPhoto{}
+export interface Clan extends GenericPhoto {}

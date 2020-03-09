@@ -1,5 +1,5 @@
-import { Language } from "../enums/Language.enum";
+import { Language } from '../enums/Language.enum';
 
 export interface Config {
-    lang: Language
+  lang: Language;
 }

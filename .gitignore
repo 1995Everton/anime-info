@@ -105,3 +105,6 @@ dist
 
 # Npm Lib
 lib/
+
+# Bin
+bin/

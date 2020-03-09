@@ -1,3 +1,3 @@
-import { GenericPhoto } from "../../shared/models/GenericsPhoto";
+import { GenericPhoto } from '../../shared/models/GenericsPhoto';
 
-export interface NatureType extends GenericPhoto{}
+export interface NatureType extends GenericPhoto {}

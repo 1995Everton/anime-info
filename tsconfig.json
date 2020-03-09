@@ -6,18 +6,20 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "lib": ["es6", "es2015", "dom"],
-    "types": ["node"],
     "declaration": true,
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
+    "types": ["node", "jest"],
+    "typeRoots": ["./types", "./node_modules/@types"]
   },
   "exclude": [
     "lib",
     "node_modules",
-    "src/**/*.spec.ts"
+    "src/**/*.spec.ts",
+    "**/*.test.ts"
   ],
   "include": [
-    "src"
+    "./src/**/*.ts"
   ]
 }

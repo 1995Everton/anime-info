@@ -1,3 +1,3 @@
-export enum Characters{
-    ItachiUchiha = "Itachi_Uchiha"
+export enum Characters {
+  ItachiUchiha = 'Itachi_Uchiha',
 }

@@ -1,2 +1,2 @@
-export * from "./characters.enum";
-export * from "./tags.enum";
+export * from './characters.enum';
+export * from './tags.enum';

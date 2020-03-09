@@ -1,4 +1,4 @@
-export interface Voices{
-    name: string | null,
-    country: string | null
+export interface Voices {
+  name: string | null;
+  country: string | null;
 }

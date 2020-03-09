@@ -1,5 +1,5 @@
 export interface Quotes {
-    recipient: string | null;
-    phrase: string | null;
-    situation: string | null;
+  recipient: string | null;
+  phrase: string | null;
+  situation: string | null;
 }
