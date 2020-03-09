@@ -1,16 +1,12 @@
-import { getDom, $Query, getInnerHTML, stripHTML, removeSpacesString, getNameAndImage, getImage, getTextContent, getAndRemoveTagBr, getListElement } from "../utils/elements.dom";
-import { Info, TagsInfoPtBr, TagsInfoEn, TagsInfoEs } from "./models/Info";
-import { Characters } from "./enums/characters.enum";
-import { Debut, TagsDebutPtBr, TagsDebutEn, TagsDebutEs } from "./models/Debut";
-import { Tags } from "./models/Tags";
+import { getDom, $Query, removeSpacesString, getNameAndImage, getImage, getAndRemoveTagBr, getListElement, getNameAndAllImageCharacter } from "../utils/elements.dom";
+import { Info, Debut, Tags, Voices, Affiliation, Clan, KekkeiGenkai, NatureType, OptionFields, defaultOption } from "./models";
 import { getFunctionFactory, getKeyValue } from "../utils/helper";
-import { Language } from "../shared/enums/Language.enum";
-import { Config } from "../shared/models/Config";
-import { OptionFields, defaultOption } from "./models/OptionFields";
-import { TagsVoicesPtBr, TagsVoicesEn, TagsVoicesEs, Voices } from "./models/Voices";
-import { TagsKekkeiGenkaiPtBr, TagsKekkeiGenkaiEn, TagsKekkeiGenkaiEs, KekkeiGenkai } from "./models/KekkeiGenkai";
-import { TagsAffiliationPtBr, TagsAffiliationEn, Affiliation, TagsAffiliationEs } from "./models/Affiliation";
-import { Clan, TagsClanEs, TagsClanPtBr } from "./models/Clan";
+import { Language } from "../shared/enums";
+import { Config, GenericPhoto} from "../shared/models";
+import { TagsPtBr, TagsEs , Characters } from "./enums";
+import { Photos } from "./models/Photos";
+import { getNameAndPhotoTable, getVoices, getQuotes } from "./utils/dom";
+import { Quotes } from "./models/Quotes";
 
 export class Naruto {
 
@@ -18,8 +14,12 @@ export class Naruto {
 
     private _baseUrl = 'https://naruto.fandom.com/###wiki/';
 
+    private _character: string | Characters | (string | Characters)[] = "";
+
+    private _lang: Language;
+
     constructor(config: Config = { lang : Language.PT_BR }){
-        
+        this._lang = config.lang;
         this._tags = this._getTags(config.lang);
     }
 
@@ -28,65 +28,77 @@ export class Naruto {
             case Language.PT_BR:
                 this._baseUrl = this._baseUrl.replace('###','pt-br/')
                 return {
-                    name: TagsInfoPtBr.Name,
-                    photo: TagsInfoPtBr.Photo,
-                    titles: TagsInfoPtBr.Titles,
-                    birthday : TagsInfoPtBr.Birthday,
-                    status: TagsInfoPtBr.Status,
-                    age: TagsInfoPtBr.Age,
-                    height: TagsInfoPtBr.Height,
-                    weight: TagsInfoPtBr.Weight,
-                    classification: TagsInfoPtBr.Classification,
-                    team: TagsInfoPtBr.Team,
-                    partner: TagsInfoPtBr.Partner,
-                    occupation: TagsInfoPtBr.Occupation,
-                    ninja_rank: TagsInfoPtBr.NinjaRank,
-                    ninja_registration: TagsInfoPtBr.NinjaRegistration,
-                    sex: TagsInfoPtBr.Sex,
-                    kekkei_genkai: TagsKekkeiGenkaiPtBr.List,
-                    affiliation: TagsAffiliationPtBr.List,
-                    clan: TagsClanPtBr.List,
-                    anime: TagsDebutPtBr.Anime,
-                    game: TagsDebutPtBr.Game,
-                    manga: TagsDebutPtBr.Manga,
-                    movie: TagsDebutPtBr.Movie,
-                    novel: TagsDebutPtBr.Novel,
-                    ova: TagsDebutPtBr.Ova,
+                    name: TagsPtBr.Name,
+                    description: TagsPtBr.Description,
+                    photo: TagsPtBr.Photo,
+                    titles: TagsPtBr.Titles,
+                    birthday : TagsPtBr.Birthday,
+                    status: TagsPtBr.Status,
+                    age: TagsPtBr.Age,
+                    height: TagsPtBr.Height,
+                    weight: TagsPtBr.Weight,
+                    classification: TagsPtBr.Classification,
+                    team: TagsPtBr.Team,
+                    partner: TagsPtBr.Partner,
+                    occupation: TagsPtBr.Occupation,
+                    ninja_rank: TagsPtBr.NinjaRank,
+                    ninja_registration: TagsPtBr.NinjaRegistration,
+                    family: TagsPtBr.Family,
+                    jutsu: TagsPtBr.Jutsu,
+                    nature_type: TagsPtBr.NatureType,
+                    tools: TagsPtBr.Tools,
+                    quotes: TagsPtBr.Quotes,
+                    sex: TagsPtBr.Sex,
+                    kekkei_genkai: TagsPtBr.KekkeiGenkai,
+                    affiliation: TagsPtBr.Affiliation,
+                    clan: TagsPtBr.Clan,
+                    anime: TagsPtBr.Anime,
+                    game: TagsPtBr.Game,
+                    manga: TagsPtBr.Manga,
+                    movie: TagsPtBr.Movie,
+                    novel: TagsPtBr.Novel,
+                    ova: TagsPtBr.Ova,
                     voices: {
-                        name: TagsVoicesPtBr.Name,
-                        country: TagsVoicesPtBr.Country
+                        name: TagsPtBr.VoicesName,
+                        country: TagsPtBr.VoicesCountry
                     }
                 };
             case Language.ES:
                 this._baseUrl = this._baseUrl.replace('###','es/')
                 return {
-                    name: TagsInfoEs.Name,
-                    photo: TagsInfoEs.Photo,
-                    titles: TagsInfoEs.Titles,
-                    birthday : TagsInfoEs.Birthday,
-                    status: TagsInfoEs.Status,
-                    age: TagsInfoEs.Age,
-                    sex: TagsInfoEs.Sex,
-                    height: TagsInfoEs.Height,
-                    weight: TagsInfoEs.Weight,
-                    classification: TagsInfoEs.Classification,
-                    team: TagsInfoEs.Team,
-                    partner: TagsInfoEs.Partner,
-                    occupation: TagsInfoEs.Occupation,
-                    ninja_rank: TagsInfoEs.NinjaRank,
-                    ninja_registration: TagsInfoEs.NinjaRegistration,
-                    kekkei_genkai: TagsKekkeiGenkaiEs.List,
-                    affiliation: TagsAffiliationEs.List,
-                    clan: TagsClanEs.List,
-                    anime: TagsDebutEs.Anime,
-                    game: TagsDebutEs.Game,
-                    manga: TagsDebutEs.Manga,
-                    movie: TagsDebutEs.Movie,
-                    novel: TagsDebutEs.Novel,
-                    ova: TagsDebutEs.Ova,
+                    name: TagsEs.Name,
+                    description: TagsEs.Description,
+                    photo: TagsEs.Photo,
+                    titles: TagsEs.Titles,
+                    birthday : TagsEs.Birthday,
+                    status: TagsEs.Status,
+                    age: TagsEs.Age,
+                    sex: TagsEs.Sex,
+                    height: TagsEs.Height,
+                    weight: TagsEs.Weight,
+                    classification: TagsEs.Classification,
+                    team: TagsEs.Team,
+                    partner: TagsEs.Partner,
+                    occupation: TagsEs.Occupation,
+                    ninja_rank: TagsEs.NinjaRank,
+                    ninja_registration: TagsEs.NinjaRegistration,
+                    family: TagsEs.Family,
+                    jutsu: TagsEs.Jutsu,
+                    nature_type: TagsEs.NatureType,
+                    tools: TagsEs.Tools,
+                    quotes: TagsEs.Quotes,
+                    kekkei_genkai: TagsEs.KekkeiGenkai,
+                    affiliation: TagsEs.Affiliation,
+                    clan: TagsEs.Clan,
+                    anime: TagsEs.Anime,
+                    game: TagsEs.Game,
+                    manga: TagsEs.Manga,
+                    movie: TagsEs.Movie,
+                    novel: TagsEs.Novel,
+                    ova: TagsEs.Ova,
                     voices: {
-                        name: TagsVoicesEs.Name,
-                        country: TagsVoicesEs.Country
+                        name: TagsEs.VoicesName,
+                        country: TagsEs.VoicesCountry
                     }
                 };
             case Language.EN:
@@ -100,9 +112,11 @@ export class Naruto {
         
         try {
 
-            const document = await getDom(this._baseUrl + name);
+            this._character = name;
 
-            const options = Object.assign(defaultOption,option);
+            const document = await getDom(this._baseUrl + this._character);
+
+            const options = Object.assign(defaultOption, option);
 
             const keys =  Object.keys(options);
 
@@ -110,7 +124,7 @@ export class Naruto {
 
             for (const key of keys) {
                 if(getKeyValue(options,key)){
-                    info[key] = getFunctionFactory(this,document,"_" + key)
+                    info[key] = await getFunctionFactory(this,document,"_" + key)
                 }
             }
 
@@ -135,6 +149,10 @@ export class Naruto {
 
     private _name = (document: Document): string | null => {
         return $Query(document, this._tags.name);
+    }
+
+    private _description = (document: Document): string | null => {
+        return $Query(document, this._tags.description);
     }
 
     private _titles = (document: Document): (string | null)[] => {
@@ -185,26 +203,40 @@ export class Naruto {
         return $Query(document, this._tags.ninja_registration);
     }
 
+    private _family = (document: Document): (string | null)[] => {
+        return getListElement(document,this._tags.family)
+    }
+
+    private _jutsu = async (document: Document): Promise<(string | null)[] | GenericPhoto[]> => {
+        const url = `${this._baseUrl}Jutsu_de_${this._character}`
+        return await getNameAndPhotoTable(document, this._tags.jutsu, this._lang, url) 
+    }
+
+    private _nature_type = (document: Document): NatureType[] => {
+        return getNameAndImage(document,this._tags.nature_type);
+    }
+
+    private _tools = async (document: Document): Promise<(string | null)[] | GenericPhoto[]> => {
+        const url = `${this._baseUrl}Equipamentos_de_${this._character}`
+        return await getNameAndPhotoTable(document, this._tags.tools, this._lang, url)
+    }
+
+    private _quotes = async (document: Document): Promise<(string | null |Quotes)[]> => {
+        const url = `${this._baseUrl}Frases_de_${this._character}`
+        return await getQuotes(document, this._tags.quotes, this._lang, url)
+    }
+
     private _sex = (document: Document): string | null => {
         return $Query(document, this._tags.sex);
     }
 
-    private _photo = (document: Document): string | null => {
-        return getImage(document,this._tags.photo)
+    private _photo = (document: Document): Photos[] => {
+        return getNameAndAllImageCharacter(document,this._tags.photo)
     }
 
     private _voices = (document: Document): Voices[] => {
         const { name, country } = this._tags.voices
-        const voices : Voices[] = [];
-        const tagCountry = country.split("|")
-        const tagName = name.split("|")
-        tagCountry.forEach((value,index) => {
-            voices.push({ 
-                name : $Query(document,tagName[index]),
-                country: $Query(document,tagCountry[index])
-            })
-        })
-        return voices;
+        return getVoices(document, country, name)
     }
 
     private _kekkei_genkai = (document: Document): KekkeiGenkai[] => {

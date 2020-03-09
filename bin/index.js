@@ -6,13 +6,13 @@ async function get(){
         lang: "pt-br"
     });
 
-    const itachi = await naruto.getCharacter("Kakashi_Hatake",{birthday: true,name: true});
+    const itachi = await naruto.getCharacter("Sasuke_Uchiha",{});
 
-    return itachi;
+    console.log(itachi)
 
 }
 
-console.log(get());
+get();
 
 
 

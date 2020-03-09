@@ -1,5 +1,6 @@
 export interface Tags {
     sex: string;
+    description: string;
     photo: string;
     titles: string;
     name: string;
@@ -14,6 +15,11 @@ export interface Tags {
     occupation: string;
     ninja_rank: string;
     ninja_registration: string;
+    family: string;
+    jutsu: string;
+    nature_type: string;
+    tools: string;
+    quotes: string;
     manga: string;
     anime: string;
     movie: string;
@@ -27,5 +33,4 @@ export interface Tags {
     kekkei_genkai:string;
     affiliation: string;
     clan: string;
-
 }

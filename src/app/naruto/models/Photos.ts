@@ -1,3 +1,3 @@
 import { GenericPhoto } from "../../shared/models/GenericsPhoto";
 
-export interface KekkeiGenkai extends GenericPhoto{}
+export interface Photos extends GenericPhoto {}

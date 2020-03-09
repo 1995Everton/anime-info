@@ -1,5 +1,5 @@
 import { JSDOM } from "jsdom";
-import { genericPhoto } from "../shared/models/GenericsPhoto";
+import { GenericPhoto } from "../shared/models/GenericsPhoto";
 
 export function getTextContent(element: Element| null): string | null{
     if (element) {
@@ -29,7 +29,7 @@ export function getInnerHTML(element: HTMLElement | null): string | null{
 export function getAndRemoveTagBr(document: Document,tag: string): string[]{
     const string = getInnerHTML(document.querySelector(tag))
     if(typeof string == "string"){
-        return string.split("<br>").filter( el => el)
+        return string.split("<br>").filter( el => el).map( el => stripHTML(el))
     }else{
         return []
     }
@@ -44,6 +44,19 @@ export function getImage(document: Document,tag: string): string | null{
     }
 }
 
+export function getNameAndAllImageCharacter(document: Document,tag: string): GenericPhoto[]{
+    const list : GenericPhoto[] = [];
+    const elements = document.querySelectorAll(tag);
+    elements.forEach(element => {
+        let icon = element.children[0] as HTMLImageElement
+        list.push({
+            name: element.getAttribute("title"),
+            icon: icon.src
+        })
+    })
+    return list;
+}
+
 export function getListElement(document: Document,tag: string): (string | null)[]{
     const list: (string | null)[] = [];
     const elements = document.querySelectorAll(tag)
@@ -53,15 +66,16 @@ export function getListElement(document: Document,tag: string): (string | null)[
     return list.filter( el => el);
 }
 
-
-export function getNameAndImage(document: Document,tag: string): genericPhoto[]{
-    const list : genericPhoto[] = [];
+export function getNameAndImage(document: Document,tag: string): GenericPhoto[]{
+    const list : GenericPhoto[] = [];
     const elements = document.querySelectorAll(tag)
     for (let index = 0; index < elements.length; index+=2) {
-        list.push({
-            name: removeSpacesString(elements[index + 1].textContent),
-            icon: elements[index].children[0].getAttribute('data-src')
-        })
+        if(elements[index].children[0] && elements[index + 1]){
+            list.push({
+                name: removeSpacesString(elements[index + 1].textContent),
+                icon: elements[index].children[0].getAttribute('data-src')
+            })
+        }
     }
     return list;
 }
