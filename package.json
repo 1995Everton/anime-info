@@ -1,0 +1,36 @@
+{
+  "name": "teste_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsdom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.1.0",
+    "@types/node": "^13.9.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "build:check": "tsc --noEmit",
+    "start": "node -r ts-node/register bin/index.js",
+    "start:break": "node --inspect-brk -r ts-node/register bin/index.js",
+    "start:debug": "node --inspect -r ts-node/register bin/index.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "my-cli": "./bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
