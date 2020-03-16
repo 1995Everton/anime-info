@@ -17,7 +17,7 @@
 
 ## ✨ Demo
 
-Ainda não disponível
+- Site: [Anime Info Demo](https://anime-info-demo.herokuapp.com/)
 
 ## 👉 Instalação
 
