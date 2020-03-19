@@ -4,8 +4,8 @@
   "author": "Everton Patrik Cardoso",
   "description": "Plugin intended to collect informing of anime characters through the fandow wiki",
   "license": "ISC",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1995Everton/anime-info.git"
@@ -16,43 +16,56 @@
     "url": "https://github.com/1995Everton/anime-info/issues"
   },
   "scripts": {
-    "build": "tsc",
-    "build:watch": "tsc -w",
-    "build:check": "tsc --noEmit",
-    "start": "node -r ts-node/register bin/index.js",
-    "start:break": "node --inspect-brk -r ts-node/register bin/index.js",
-    "start:debug": "node --inspect -r ts-node/register bin/index.js",
+    "prettier:format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest --config jestconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "start:dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node bin/index.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run prettier:format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "jsdom": "^16.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^25.1.2",
+    "@types/jest": "^25.1.4",
     "@types/jsdom": "^16.1.0",
-    "@types/node": "^13.9.0",
+    "@types/node": "^13.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^25.2.0",
-    "ts-node": "^8.6.2",
-    "tslint": "^6.0.0",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3",
-    "undefined": "^0.1.0"
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier-format && npm run lint"
+    }
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
-  "extends": [
-    "tslint:recommended",
-    "tslint-config-prettier"
-  ],
-  "keywords": ["anime","info","json","naruto"]
+  "keywords": [
+    "anime",
+    "info",
+    "json",
+    "naruto"
+  ]
 }

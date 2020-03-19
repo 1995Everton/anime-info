@@ -53,5 +53,5 @@ export const defaultOption: OptionFields = {
   voices: true,
   kekkei_genkai: true,
   affiliation: true,
-  clan: true,
+  clan: true
 };

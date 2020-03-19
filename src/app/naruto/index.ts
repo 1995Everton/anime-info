@@ -1,12 +1,10 @@
 import {
   getDom,
   $Query,
-  removeSpacesString,
   getNameAndImage,
-  getImage,
   getAndRemoveTagBr,
   getListElement,
-  getNameAndAllImageCharacter,
+  getNameAndAllImageCharacter
 } from '../utils/elements.dom';
 import {
   Info,
@@ -18,7 +16,7 @@ import {
   KekkeiGenkai,
   NatureType,
   OptionFields,
-  defaultOption,
+  defaultOption
 } from './models';
 import { getFunctionFactory, getKeyValue } from '../utils/helper';
 import { Language } from '../shared/enums';
@@ -79,8 +77,8 @@ export class Naruto {
           ova: TagsPtBr.Ova,
           voices: {
             name: TagsPtBr.VoicesName,
-            country: TagsPtBr.VoicesCountry,
-          },
+            country: TagsPtBr.VoicesCountry
+          }
         };
       case Language.ES:
         this._baseUrl = this._baseUrl.replace('###', 'es/');
@@ -117,8 +115,8 @@ export class Naruto {
           ova: TagsEs.Ova,
           voices: {
             name: TagsEs.VoicesName,
-            country: TagsEs.VoicesCountry,
-          },
+            country: TagsEs.VoicesCountry
+          }
         };
       case Language.EN:
       default:
@@ -126,7 +124,10 @@ export class Naruto {
     }
   }
 
-  public async getCharacter(name: Characters | string, option?: OptionFields): Promise<Info | null> {
+  public async getCharacter(
+    name: Characters | string,
+    option?: OptionFields
+  ): Promise<Info | null> {
     try {
       this._character = name;
 
@@ -136,133 +137,135 @@ export class Naruto {
 
       const keys = Object.keys(options);
 
-      let info: Info = {};
+      const info: Info = {};
 
+      // eslint-disable-next-line no-restricted-syntax
       for (const key of keys) {
         if (getKeyValue(options, key)) {
-          info[key] = await getFunctionFactory(this, document, '_' + key);
+          // eslint-disable-next-line no-await-in-loop
+          info[key] = await getFunctionFactory(this, document, `_${key}`);
         }
       }
 
       return info;
     } catch (error) {
-      console.log(error);
       throw new Error('The requested Character does not exist');
     }
   }
 
-  private _debut = (document: Document): Debut => {
-    return {
-      anime: $Query(document, this._tags.anime),
-      game: $Query(document, this._tags.game),
-      manga: $Query(document, this._tags.manga),
-      movie: $Query(document, this._tags.movie),
-      novel: $Query(document, this._tags.novel),
-      ova: $Query(document, this._tags.ova),
-    };
-  };
+  private _debut = (document: Document): Debut => ({
+    anime: $Query(document, this._tags.anime),
+    game: $Query(document, this._tags.game),
+    manga: $Query(document, this._tags.manga),
+    movie: $Query(document, this._tags.movie),
+    novel: $Query(document, this._tags.novel),
+    ova: $Query(document, this._tags.ova)
+  });
 
-  private _name = (document: Document): string | null => {
-    return $Query(document, this._tags.name);
-  };
+  private _name = (document: Document): string | null =>
+    $Query(document, this._tags.name);
 
-  private _description = (document: Document): string | null => {
-    return $Query(document, this._tags.description);
-  };
+  private _description = (document: Document): string | null =>
+    $Query(document, this._tags.description);
 
-  private _titles = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.titles);
-  };
+  private _titles = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.titles);
 
-  private _birthday = (document: Document): string | null => {
-    return $Query(document, this._tags.birthday);
-  };
+  private _birthday = (document: Document): string | null =>
+    $Query(document, this._tags.birthday);
 
-  private _status = (document: Document): string | null => {
-    return $Query(document, this._tags.status);
-  };
+  private _status = (document: Document): string | null =>
+    $Query(document, this._tags.status);
 
-  private _age = (document: Document): string[] => {
-    return getAndRemoveTagBr(document, this._tags.age);
-  };
+  private _age = (document: Document): string[] =>
+    getAndRemoveTagBr(document, this._tags.age);
 
-  private _height = (document: Document): string[] => {
-    return getAndRemoveTagBr(document, this._tags.height);
-  };
+  private _height = (document: Document): string[] =>
+    getAndRemoveTagBr(document, this._tags.height);
 
-  private _weight = (document: Document): string[] => {
-    return getAndRemoveTagBr(document, this._tags.weight);
-  };
+  private _weight = (document: Document): string[] =>
+    getAndRemoveTagBr(document, this._tags.weight);
 
-  private _classification = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.classification);
-  };
+  private _classification = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.classification);
 
-  private _team = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.team);
-  };
+  private _team = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.team);
 
-  private _partner = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.partner);
-  };
+  private _partner = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.partner);
 
-  private _occupation = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.occupation);
-  };
+  private _occupation = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.occupation);
 
-  private _ninja_rank = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.ninja_rank);
-  };
+  private _ninja_rank = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.ninja_rank);
 
-  private _ninja_registration = (document: Document): string | null => {
-    return $Query(document, this._tags.ninja_registration);
-  };
+  private _ninja_registration = (document: Document): string | null =>
+    $Query(document, this._tags.ninja_registration);
 
-  private _family = (document: Document): (string | null)[] => {
-    return getListElement(document, this._tags.family);
-  };
+  private _family = (document: Document): (string | null)[] =>
+    getListElement(document, this._tags.family);
 
-  private _jutsu = async (document: Document): Promise<(string | null)[] | GenericPhoto[]> => {
+  private _jutsu = async (
+    document: Document
+  ): Promise<(string | null)[] | GenericPhoto[]> => {
     const url = `${this._baseUrl}Jutsu_de_${this._character}`;
-    return await getNameAndPhotoTable(document, this._tags.jutsu, this._lang, url);
+    const jutsu = await getNameAndPhotoTable(
+      document,
+      this._tags.jutsu,
+      this._lang,
+      url
+    );
+    return jutsu;
   };
 
-  private _nature_type = (document: Document): NatureType[] => {
-    return getNameAndImage(document, this._tags.nature_type);
-  };
+  private _nature_type = (document: Document): NatureType[] =>
+    getNameAndImage(document, this._tags.nature_type);
 
-  private _tools = async (document: Document): Promise<(string | null)[] | GenericPhoto[]> => {
+  private _tools = async (
+    document: Document
+  ): Promise<(string | null)[] | GenericPhoto[]> => {
     const url = `${this._baseUrl}Equipamentos_de_${this._character}`;
-    return await getNameAndPhotoTable(document, this._tags.tools, this._lang, url);
+    const tools = await getNameAndPhotoTable(
+      document,
+      this._tags.tools,
+      this._lang,
+      url
+    );
+    return tools;
   };
 
-  private _quotes = async (document: Document): Promise<(string | null | Quotes)[]> => {
+  private _quotes = async (
+    document: Document
+  ): Promise<(string | null | Quotes)[]> => {
     const url = `${this._baseUrl}Frases_de_${this._character}`;
-    return await getQuotes(document, this._tags.quotes, this._lang, url);
+    const quotes = await getQuotes(
+      document,
+      this._tags.quotes,
+      this._lang,
+      url
+    );
+    return quotes;
   };
 
-  private _sex = (document: Document): string | null => {
-    return $Query(document, this._tags.sex);
-  };
+  private _sex = (document: Document): string | null =>
+    $Query(document, this._tags.sex);
 
-  private _photo = (document: Document): Photos[] => {
-    return getNameAndAllImageCharacter(document, this._tags.photo);
-  };
+  private _photo = (document: Document): Photos[] =>
+    getNameAndAllImageCharacter(document, this._tags.photo);
 
   private _voices = (document: Document): Voices[] => {
     const { name, country } = this._tags.voices;
     return getVoices(document, country, name);
   };
 
-  private _kekkei_genkai = (document: Document): KekkeiGenkai[] => {
-    return getNameAndImage(document, this._tags.kekkei_genkai);
-  };
+  private _kekkei_genkai = (document: Document): KekkeiGenkai[] =>
+    getNameAndImage(document, this._tags.kekkei_genkai);
 
-  private _affiliation = (document: Document): Affiliation[] => {
-    return getNameAndImage(document, this._tags.affiliation);
-  };
+  private _affiliation = (document: Document): Affiliation[] =>
+    getNameAndImage(document, this._tags.affiliation);
 
-  private _clan = (document: Document): Clan[] => {
-    return getNameAndImage(document, this._tags.clan);
-  };
+  private _clan = (document: Document): Clan[] =>
+    getNameAndImage(document, this._tags.clan);
 }

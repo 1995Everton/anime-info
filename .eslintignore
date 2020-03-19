@@ -1,0 +1,12 @@
+!**/.eslintrc*
+node_modules*
+*.test.ts
+dist
+*.svg
+*.ico
+*.json
+.gitignore
+*.md
+*.log
+*.lock
+bin

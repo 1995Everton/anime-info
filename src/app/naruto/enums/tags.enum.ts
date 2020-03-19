@@ -30,7 +30,7 @@ export enum TagsPtBr {
   Affiliation = "[data-source='Afiliação'] > div > a",
   KekkeiGenkai = "[data-source='Kekkei Genkai'] > div > a",
   VoicesName = '[data-source=Japonês] > div|[data-source=Português] > div',
-  VoicesCountry = '[data-source=Japonês] > h3 > small > b|[data-source=Português] > h3 > small > b',
+  VoicesCountry = '[data-source=Japonês] > h3 > small > b|[data-source=Português] > h3 > small > b'
 }
 
 export enum TagsEn {
@@ -65,7 +65,7 @@ export enum TagsEn {
   Affiliation = '',
   KekkeiGenkai = '',
   VoicesName = '',
-  VoicesCountry = '',
+  VoicesCountry = ''
 }
 
 export enum TagsEs {
@@ -100,5 +100,5 @@ export enum TagsEs {
   Affiliation = "[data-source='Afiliacion'] > div > a",
   KekkeiGenkai = "[data-source='Kekkeigenkai'] > div > a",
   VoicesName = '[data-source=Seiyū] > div|[data-source=Españollatino] > div|[data-source=Españolespaña] > div',
-  VoicesCountry = '[data-source=Seiyū] > h3|[data-source=Españollatino] > h3|[data-source=Españolespaña] > h3',
+  VoicesCountry = '[data-source=Seiyū] > h3|[data-source=Españollatino] > h3|[data-source=Españolespaña] > h3'
 }
