@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    app:
+        build: .
+        container_name: anime-info
+        volumes: 
+            - .:/usr/app
+            - /usr/app/node_modules
+        tty: true
