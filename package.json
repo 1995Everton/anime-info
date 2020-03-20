@@ -20,7 +20,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest --config jestconfig.json",
-    "docker": "docker exec -it anime-info /bin/bash",
+    "docker": "docker-compose up -d && docker exec -it anime-info /bin/bash",
     "start:dev": "nodemon",
     "build": "rimraf ./dist && tsc",
     "start": "npm run build && node bin/index.js",

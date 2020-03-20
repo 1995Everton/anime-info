@@ -1,1 +1,1 @@
-export * from './app/naruto';
+export * from './naruto/Naruto';
