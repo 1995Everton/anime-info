@@ -1,7 +1,7 @@
 export enum TagsPtBr {
   Name = '.page-header__title',
   Description = '#mw-content-text > aside ~ p',
-  Photo = "[data-source='Imagem'] > div figure a",
+  Photo = "[data-source='Imagem'] > div figure a|[data-source='Imagem'] a",
   Titles = "[data-source='Nome'] > div > i",
   Age = "[data-source='IdadeI'] > div",
   Height = "[data-source='AlturaI'] > div",
@@ -71,7 +71,7 @@ export enum TagsEn {
 export enum TagsEs {
   Name = '.page-header__title',
   Description = '#mw-content-text > aside ~ p',
-  Photo = '.pi-image-collection > div figure a',
+  Photo = '.pi-image-collection > div figure a|.pi-image a',
   Titles = "[data-source='Sobrenombre'] > div > i",
   Age = "[data-source='Edad'] > div",
   Height = "[data-source='Altura'] > div",

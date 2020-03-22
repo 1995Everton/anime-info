@@ -21,10 +21,11 @@
     }
   },
   "rules": {
-    "no-console": "off",
+    "no-console": "error",
     "no-unused-vars": "off",
     "camelcase": "off",
     "semi": "error",
+    "dot-notation": "off",
     "@typescript-eslint/no-unused-vars": "error",
     "no-useless-constructor": "off",
     "no-underscore-dangle": "off",

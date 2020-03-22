@@ -15,6 +15,16 @@
 
 > Plugin usado para buscar informações de personagens direto do site oficial da  [Fandom](https://www.fandom.com/) e retorna um JSON. 
 
+  <p style="width: 500px;
+  background-color: #ff000024;
+  font-family: sans-serif;
+  color: #ff0000;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box">🙅‍♂️ Atenção !!! Essa biblioteca foi criada apenas para fins didáticos e a propriedade intelectual das informações pertence a seus respectivos criadores.</p>
+
+
 ## ✨ Demo
 
 - Site: [Anime Info Demo](https://anime-info-demo.herokuapp.com/)
@@ -53,6 +63,8 @@ const itachi = await naruto.getCharacter("Itachi_Uchiha",{
 });
 
 ```
+### 💯 Suporte ao TypeScript
+
 
 ## 🌎 Internacionalização
 
@@ -64,32 +76,43 @@ const naruto = new Naruto({ lang : "es" });
 
 ```
 
-<table class="tg" style="undefined;table-layout: fixed; width: 192px">
+<table class="tg" style="undefined;table-layout: fixed; width: 500px">
 <colgroup>
 <col style="width: 94px">
 <col style="width: 98px">
 </colgroup>
   <tr>
-    <th class="tg-c3ow">Linguagens</th>
-    <th class="tg-baqh">lang</th>
+    <th class="tg-c3ow" style="text-align: center">Linguagens</th>
+    <th class="tg-baqh" style="text-align: center">lang</th>
+	<th class="tg-baqh" style="text-align: center">Naruto</th>
+	<th class="tg-baqh" style="text-align: center">Dragon Ball Z</th>
   </tr>
   <tr>
-    <td class="tg-c3ow">
-			<a href="https://www.fandom.com/explore-pt-br?uselang=pt-br">Português</a>
+    <td class="tg-c3ow"><a href="https://www.fandom.com/explore-pt-br?uselang=pt-br">
+	Português
+	</a>
 </td>
-    <td class="tg-baqh">pr-br</td>
+    <td class="tg-baqh"  style="text-align: center">pr-br</td>
+	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
   <tr>
-        <td class="tg-c3ow">
-		<a href="https://www.fandom.com/explore-es?uselang=es">Espanol</a>
+        <td class="tg-c3ow"><a href="https://www.fandom.com/explore-es?uselang=es">
+		Espanol
+		</a>
         </td>
-    <td class="tg-baqh">es</td>
+    <td class="tg-baqh" style="text-align: center">es</td>
+	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
   <tr>
     <td class="tg-c3ow">
-		<a href="https://www.fandom.com/">English</a>
+		<a href="https://www.fandom.com/">English
+		</a>
 	</td>
-    <td class="tg-baqh">not available</td>
+    <td class="tg-baqh"  style="text-align: center">en</td>
+	<td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
+	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
 </table>
 

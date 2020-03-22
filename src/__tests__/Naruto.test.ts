@@ -1,13 +1,12 @@
-import { Naruto } from '../';
-import { Language } from '../app/shared/enums';
-import { Characters } from '../app/naruto/enums';
+import { Naruto, CharactersNaruto } from '../naruto';
+import { Language } from '../shared/enums';
 
-test('Returns only the character name', async () => {
+test('Returns only the Naruto character name', async () => {
   const naruto = new Naruto({
     lang: Language.PT_BR
   });
 
-  const itachi = await naruto.getCharacter(Characters.ItachiUchiha, {
+  const itachi = await naruto.getCharacter(CharactersNaruto.ItachiUchiha, {
     affiliation: false,
     age: false,
     birthday: false,

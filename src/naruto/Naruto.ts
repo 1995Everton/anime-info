@@ -21,17 +21,21 @@ import {
 import { getFunctionFactory, getKeyValue } from '../utils/helper';
 import { Language } from '../shared/enums';
 import { Config, GenericPhoto } from '../shared/models';
-import { TagsPtBr, TagsEs, Characters } from './enums';
+import { TagsPtBr, TagsEs, CharactersNaruto } from './enums';
 import { Photos } from './models/Photos';
 import { getNameAndPhotoTable, getVoices, getQuotes } from './utils/dom';
 import { Quotes } from './models/Quotes';
+import { Animes } from '../shared/models/Animes';
 
-export class Naruto {
+export class Naruto implements Animes<CharactersNaruto, OptionFields, Info> {
   private _tags: Tags;
 
   private _baseUrl = 'https://naruto.fandom.com/###wiki/';
 
-  private _character: string | Characters | (string | Characters)[] = '';
+  private _character:
+    | string
+    | CharactersNaruto
+    | (string | CharactersNaruto)[] = '';
 
   private _lang: Language;
 
@@ -125,7 +129,7 @@ export class Naruto {
   }
 
   public async getCharacter(
-    name: Characters | string,
+    name: CharactersNaruto | string,
     option?: OptionFields
   ): Promise<Info | null> {
     try {
@@ -177,13 +181,13 @@ export class Naruto {
   private _status = (document: Document): string | null =>
     $Query(document, this._tags.status);
 
-  private _age = (document: Document): string[] =>
+  private _age = (document: Document): (string | null)[] =>
     getAndRemoveTagBr(document, this._tags.age);
 
-  private _height = (document: Document): string[] =>
+  private _height = (document: Document): (string | null)[] =>
     getAndRemoveTagBr(document, this._tags.height);
 
-  private _weight = (document: Document): string[] =>
+  private _weight = (document: Document): (string | null)[] =>
     getAndRemoveTagBr(document, this._tags.weight);
 
   private _classification = (document: Document): (string | null)[] =>
