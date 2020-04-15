@@ -2,12 +2,12 @@ version: 2
 defaults:
   working_directory: ~/repo
   docker:
-    - image: 'circleci/node:8.9.1'
+    - image: 'circleci/node:12.16.2'
 jobs:
   test:
     working_directory: ~/repo
     docker:
-      - image: 'circleci/node:8.9.1'
+      - image: 'circleci/node:12.16.2'
     steps:
       - checkout
       - restore_cache:
@@ -28,7 +28,7 @@ jobs:
   deploy:
     working_directory: ~/repo
     docker:
-      - image: 'circleci/node:8.9.1'
+      - image: 'circleci/node:12.16.2'
     steps:
       - attach_workspace:
           at: ~/repo
