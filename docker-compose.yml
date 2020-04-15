@@ -6,5 +6,5 @@ services:
         container_name: anime-info
         volumes: 
             - .:/usr/app
-            - /usr/app/node_modules
+            # - /usr/app/node_modules
         tty: true

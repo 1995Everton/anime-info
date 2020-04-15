@@ -1,5 +1,4 @@
-import { Naruto, CharactersNaruto } from '../naruto';
-import { Language } from '../shared/enums';
+import { Naruto, CharactersNaruto, Language } from '../';
 
 test('Returns only the Naruto character name', async () => {
   const naruto = new Naruto({

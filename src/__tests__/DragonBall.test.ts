@@ -1,5 +1,4 @@
-import { DragonBall, CharactersDragonBall } from '../dragonball';
-import { Language } from '../shared/enums';
+import { DragonBall, CharactersDragonBall, Language } from '../';
 
 test('Returns only the Dragon Ball character name', async () => {
   const dragon_ball = new DragonBall({

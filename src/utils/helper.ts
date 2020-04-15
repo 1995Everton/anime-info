@@ -1,10 +1,9 @@
 export function getFunctionFactory(
   service: { [x: string]: any },
-  document: Document,
   name: string
 ) {
   if (name in service) {
-    return service[name](document, service);
+    return service[name]();
   }
   return null;
 }

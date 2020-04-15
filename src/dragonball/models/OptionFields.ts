@@ -18,7 +18,7 @@ export interface OptionFields {
 
 export const defaultOption: OptionFields = {
   name: true,
-  description:true,
+  description: true,
   sex: true,
   birthday: true,
   height: true,

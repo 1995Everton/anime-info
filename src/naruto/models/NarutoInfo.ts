@@ -8,7 +8,7 @@ import { NatureType } from './NatureType';
 import { Photos } from './Photos';
 import { Quotes } from './Quotes';
 
-export interface Info {
+export interface NarutoInfo {
   [key: string]: any;
   sex?: string;
   description?: string;

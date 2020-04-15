@@ -1,8 +1,8 @@
 import { Language } from '../../shared/enums';
-import { Tags } from '../models';
+import { DragonBallTags } from '../models';
 import { TagsPtBr, TagsEs, TagsEn } from '../enums/tags.enum';
 
-export function getTags(lang: Language): Tags {
+export function getTagByLang(lang: Language): DragonBallTags {
   switch (lang) {
     case Language.PT_BR:
       return {

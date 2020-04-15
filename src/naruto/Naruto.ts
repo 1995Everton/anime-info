@@ -1,5 +1,4 @@
 import {
-  getDom,
   $Query,
   getNameAndImage,
   getAndRemoveTagBr,
@@ -7,269 +6,148 @@ import {
   getNameAndAllImageCharacter
 } from '../utils/elements.dom';
 import {
-  Info,
+  NarutoInfo,
   Debut,
-  Tags,
+  NarutoTags,
   Voices,
   Affiliation,
   Clan,
   KekkeiGenkai,
   NatureType,
   OptionFields,
-  defaultOption
+  defaultOption,
+  Photos
 } from './models';
-import { getFunctionFactory, getKeyValue } from '../utils/helper';
 import { Language } from '../shared/enums';
-import { Config, GenericPhoto } from '../shared/models';
-import { TagsPtBr, TagsEs, CharactersNaruto } from './enums';
-import { Photos } from './models/Photos';
-import { getNameAndPhotoTable, getVoices, getQuotes } from './utils/dom';
+import { Config, GenericPhoto, AnimesGeneric } from '../shared/models';
+import { CharactersNaruto } from './enums';
+import {
+  getNameAndPhotoTable,
+  getVoices,
+  getQuotes,
+  getTagByLang
+} from './utils';
 import { Quotes } from './models/Quotes';
-import { Animes } from '../shared/models/Animes';
 
-export class Naruto implements Animes<CharactersNaruto, OptionFields, Info> {
-  private _tags: Tags;
-
-  private _baseUrl = 'https://naruto.fandom.com/###wiki/';
-
-  private _character:
-    | string
-    | CharactersNaruto
-    | (string | CharactersNaruto)[] = '';
-
-  private _lang: Language;
-
+export class Naruto extends AnimesGeneric<
+  CharactersNaruto,
+  OptionFields,
+  NarutoInfo,
+  NarutoTags
+> {
   constructor(config: Config = { lang: Language.PT_BR }) {
-    this._lang = config.lang;
-    this._tags = this._getTags(config.lang);
+    super(
+      config.lang,
+      getTagByLang(config.lang),
+      `https://naruto.fandom.com/${config.lang}/wiki/`,
+      defaultOption
+    );
   }
 
-  private _getTags(lang: Language): Tags {
-    switch (lang) {
-      case Language.PT_BR:
-        this._baseUrl = this._baseUrl.replace('###', 'pt-br/');
-        return {
-          name: TagsPtBr.Name,
-          description: TagsPtBr.Description,
-          photo: TagsPtBr.Photo,
-          titles: TagsPtBr.Titles,
-          birthday: TagsPtBr.Birthday,
-          status: TagsPtBr.Status,
-          age: TagsPtBr.Age,
-          height: TagsPtBr.Height,
-          weight: TagsPtBr.Weight,
-          classification: TagsPtBr.Classification,
-          team: TagsPtBr.Team,
-          partner: TagsPtBr.Partner,
-          occupation: TagsPtBr.Occupation,
-          ninja_rank: TagsPtBr.NinjaRank,
-          ninja_registration: TagsPtBr.NinjaRegistration,
-          family: TagsPtBr.Family,
-          jutsu: TagsPtBr.Jutsu,
-          nature_type: TagsPtBr.NatureType,
-          tools: TagsPtBr.Tools,
-          quotes: TagsPtBr.Quotes,
-          sex: TagsPtBr.Sex,
-          kekkei_genkai: TagsPtBr.KekkeiGenkai,
-          affiliation: TagsPtBr.Affiliation,
-          clan: TagsPtBr.Clan,
-          anime: TagsPtBr.Anime,
-          game: TagsPtBr.Game,
-          manga: TagsPtBr.Manga,
-          movie: TagsPtBr.Movie,
-          novel: TagsPtBr.Novel,
-          ova: TagsPtBr.Ova,
-          voices: {
-            name: TagsPtBr.VoicesName,
-            country: TagsPtBr.VoicesCountry
-          }
-        };
-      case Language.ES:
-        this._baseUrl = this._baseUrl.replace('###', 'es/');
-        return {
-          name: TagsEs.Name,
-          description: TagsEs.Description,
-          photo: TagsEs.Photo,
-          titles: TagsEs.Titles,
-          birthday: TagsEs.Birthday,
-          status: TagsEs.Status,
-          age: TagsEs.Age,
-          sex: TagsEs.Sex,
-          height: TagsEs.Height,
-          weight: TagsEs.Weight,
-          classification: TagsEs.Classification,
-          team: TagsEs.Team,
-          partner: TagsEs.Partner,
-          occupation: TagsEs.Occupation,
-          ninja_rank: TagsEs.NinjaRank,
-          ninja_registration: TagsEs.NinjaRegistration,
-          family: TagsEs.Family,
-          jutsu: TagsEs.Jutsu,
-          nature_type: TagsEs.NatureType,
-          tools: TagsEs.Tools,
-          quotes: TagsEs.Quotes,
-          kekkei_genkai: TagsEs.KekkeiGenkai,
-          affiliation: TagsEs.Affiliation,
-          clan: TagsEs.Clan,
-          anime: TagsEs.Anime,
-          game: TagsEs.Game,
-          manga: TagsEs.Manga,
-          movie: TagsEs.Movie,
-          novel: TagsEs.Novel,
-          ova: TagsEs.Ova,
-          voices: {
-            name: TagsEs.VoicesName,
-            country: TagsEs.VoicesCountry
-          }
-        };
-      case Language.EN:
-      default:
-        throw new Error('language not available');
-    }
-  }
-
-  public async getCharacter(
-    name: CharactersNaruto | string,
-    option?: OptionFields
-  ): Promise<Info | null> {
-    try {
-      this._character = name;
-
-      const document = await getDom(this._baseUrl + this._character);
-
-      const options = Object.assign(defaultOption, option);
-
-      const keys = Object.keys(options);
-
-      const info: Info = {};
-
-      // eslint-disable-next-line no-restricted-syntax
-      for (const key of keys) {
-        if (getKeyValue(options, key)) {
-          // eslint-disable-next-line no-await-in-loop
-          info[key] = await getFunctionFactory(this, document, `_${key}`);
-        }
-      }
-
-      return info;
-    } catch (error) {
-      throw new Error('The requested Character does not exist');
-    }
-  }
-
-  private _debut = (document: Document): Debut => ({
-    anime: $Query(document, this._tags.anime),
-    game: $Query(document, this._tags.game),
-    manga: $Query(document, this._tags.manga),
-    movie: $Query(document, this._tags.movie),
-    novel: $Query(document, this._tags.novel),
-    ova: $Query(document, this._tags.ova)
+  private _debut = (): Debut => ({
+    anime: $Query(this._document, this._tags.anime),
+    game: $Query(this._document, this._tags.game),
+    manga: $Query(this._document, this._tags.manga),
+    movie: $Query(this._document, this._tags.movie),
+    novel: $Query(this._document, this._tags.novel),
+    ova: $Query(this._document, this._tags.ova)
   });
 
-  private _name = (document: Document): string | null =>
-    $Query(document, this._tags.name);
+  private _name = (): string | null => $Query(this._document, this._tags.name);
 
-  private _description = (document: Document): string | null =>
-    $Query(document, this._tags.description);
+  private _description = (): string | null =>
+    $Query(this._document, this._tags.description);
 
-  private _titles = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.titles);
+  private _titles = (): (string | null)[] =>
+    getListElement(this._document, this._tags.titles);
 
-  private _birthday = (document: Document): string | null =>
-    $Query(document, this._tags.birthday);
+  private _birthday = (): string | null =>
+    $Query(this._document, this._tags.birthday);
 
-  private _status = (document: Document): string | null =>
-    $Query(document, this._tags.status);
+  private _status = (): string | null =>
+    $Query(this._document, this._tags.status);
 
-  private _age = (document: Document): (string | null)[] =>
-    getAndRemoveTagBr(document, this._tags.age);
+  private _age = (): (string | null)[] =>
+    getAndRemoveTagBr(this._document, this._tags.age);
 
-  private _height = (document: Document): (string | null)[] =>
-    getAndRemoveTagBr(document, this._tags.height);
+  private _height = (): (string | null)[] =>
+    getAndRemoveTagBr(this._document, this._tags.height);
 
-  private _weight = (document: Document): (string | null)[] =>
-    getAndRemoveTagBr(document, this._tags.weight);
+  private _weight = (): (string | null)[] =>
+    getAndRemoveTagBr(this._document, this._tags.weight);
 
-  private _classification = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.classification);
+  private _classification = (): (string | null)[] =>
+    getListElement(this._document, this._tags.classification);
 
-  private _team = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.team);
+  private _team = (): (string | null)[] =>
+    getListElement(this._document, this._tags.team);
 
-  private _partner = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.partner);
+  private _partner = (): (string | null)[] =>
+    getListElement(this._document, this._tags.partner);
 
-  private _occupation = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.occupation);
+  private _occupation = (): (string | null)[] =>
+    getListElement(this._document, this._tags.occupation);
 
-  private _ninja_rank = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.ninja_rank);
+  private _ninja_rank = (): (string | null)[] =>
+    getListElement(this._document, this._tags.ninja_rank);
 
-  private _ninja_registration = (document: Document): string | null =>
-    $Query(document, this._tags.ninja_registration);
+  private _ninja_registration = (): string | null =>
+    $Query(this._document, this._tags.ninja_registration);
 
-  private _family = (document: Document): (string | null)[] =>
-    getListElement(document, this._tags.family);
+  private _family = (): (string | null)[] =>
+    getListElement(this._document, this._tags.family);
 
-  private _jutsu = async (
-    document: Document
-  ): Promise<(string | null)[] | GenericPhoto[]> => {
+  private _jutsu = async (): Promise<(string | null)[] | GenericPhoto[]> => {
     const url = `${this._baseUrl}Jutsu_de_${this._character}`;
     const jutsu = await getNameAndPhotoTable(
-      document,
+      this._document,
       this._tags.jutsu,
-      this._lang,
+      this._lang as Language,
       url
     );
     return jutsu;
   };
 
-  private _nature_type = (document: Document): NatureType[] =>
-    getNameAndImage(document, this._tags.nature_type);
+  private _nature_type = (): NatureType[] =>
+    getNameAndImage(this._document, this._tags.nature_type);
 
-  private _tools = async (
-    document: Document
-  ): Promise<(string | null)[] | GenericPhoto[]> => {
+  private _tools = async (): Promise<(string | null)[] | GenericPhoto[]> => {
     const url = `${this._baseUrl}Equipamentos_de_${this._character}`;
     const tools = await getNameAndPhotoTable(
-      document,
+      this._document,
       this._tags.tools,
-      this._lang,
+      this._lang as Language,
       url
     );
     return tools;
   };
 
-  private _quotes = async (
-    document: Document
-  ): Promise<(string | null | Quotes)[]> => {
+  private _quotes = async (): Promise<(string | null | Quotes)[]> => {
     const url = `${this._baseUrl}Frases_de_${this._character}`;
     const quotes = await getQuotes(
-      document,
       this._tags.quotes,
-      this._lang,
+      this._lang as Language,
       url
     );
     return quotes;
   };
 
-  private _sex = (document: Document): string | null =>
-    $Query(document, this._tags.sex);
+  private _sex = (): string | null => $Query(this._document, this._tags.sex);
 
-  private _photo = (document: Document): Photos[] =>
-    getNameAndAllImageCharacter(document, this._tags.photo);
+  private _photo = (): Photos[] =>
+    getNameAndAllImageCharacter(this._document, this._tags.photo);
 
-  private _voices = (document: Document): Voices[] => {
+  private _voices = (): Voices[] => {
     const { name, country } = this._tags.voices;
-    return getVoices(document, country, name);
+    return getVoices(this._document, country, name);
   };
 
-  private _kekkei_genkai = (document: Document): KekkeiGenkai[] =>
-    getNameAndImage(document, this._tags.kekkei_genkai);
+  private _kekkei_genkai = (): KekkeiGenkai[] =>
+    getNameAndImage(this._document, this._tags.kekkei_genkai);
 
-  private _affiliation = (document: Document): Affiliation[] =>
-    getNameAndImage(document, this._tags.affiliation);
+  private _affiliation = (): Affiliation[] =>
+    getNameAndImage(this._document, this._tags.affiliation);
 
-  private _clan = (document: Document): Clan[] =>
-    getNameAndImage(document, this._tags.clan);
+  private _clan = (): Clan[] =>
+    getNameAndImage(this._document, this._tags.clan);
 }

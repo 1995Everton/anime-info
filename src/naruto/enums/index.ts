@@ -1,2 +1,2 @@
-export * from './characters.enum';
+export * from './CharactersNaruto.enum';
 export * from './tags.enum';

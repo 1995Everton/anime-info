@@ -1,4 +1,4 @@
-export interface Tags {
+export interface DragonBallTags {
   name: string;
   description: string;
   sex: string;

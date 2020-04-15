@@ -64,7 +64,6 @@ export function getVoices(
 }
 
 export async function getQuotes(
-  document: Document,
   tag: string,
   lang: Language,
   url: string

@@ -1,4 +1,4 @@
-export interface Tags {
+export interface NarutoTags {
   sex: string;
   description: string;
   photo: string;
