@@ -1,17 +1,17 @@
 import { getInnerHTML, cleanString } from '../../utils/elements.dom';
 import { Language } from '../../shared/enums';
-import { Transformation } from '../models';
+import { GenericPhoto } from '../../shared/models';
 
 export function getTransformations(
   document: Document,
   tag: string,
   lang: Language
-): (Transformation | string | null)[] {
-  const list: (Transformation | string | null)[] = [];
+): (GenericPhoto | string)[] {
+  const list: (GenericPhoto | string)[] = [];
   const elements = document.querySelectorAll(tag) as NodeListOf<HTMLElement>;
   elements.forEach(element => {
     if (lang === Language.ES) {
-      list.push(cleanString(getInnerHTML(element)));
+      list.push(cleanString(getInnerHTML(element)) as string);
     } else {
       let icon: string | null = 'Sem Imagem';
       if (element.children[0] && element.children[0].children[0]) {

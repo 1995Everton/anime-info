@@ -1,22 +1,19 @@
-import { Photos } from './Photos';
-import { Appears } from './Appears';
-import { Transformation } from './Transformation';
+import { GenericPhoto } from '../../shared/models';
 
 export interface DragonBallInfo {
-  [key: string]: any;
-  name?: string;
-  description?: string;
-  sex?: string;
-  birthday?: string;
-  height?: string;
-  weight?: string;
+  name?: string | null;
+  description?: string | null;
+  sex?: string | null;
+  birthday?: string | null;
+  height?: string | null;
+  weight?: string | null;
   alias?: string[];
   race?: string[];
   death?: string[];
   address?: string[];
   occupation?: string[];
   relatives?: string[];
-  photo?: Photos[];
-  appears?: Appears[];
-  transformation?: (Transformation | string)[];
+  photo?: GenericPhoto[];
+  appears?: GenericPhoto[];
+  transformation?: (GenericPhoto | string)[];
 }

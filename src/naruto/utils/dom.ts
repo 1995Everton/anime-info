@@ -15,7 +15,7 @@ export async function getNameAndPhotoTable(
   tag: string,
   lang: Language,
   url: string
-): Promise<(string | null)[] | GenericPhoto[]> {
+): Promise<string[] | GenericPhoto[]> {
   if (lang === Language.PT_BR) {
     const dom = await getDom(url);
     const elements = dom.querySelectorAll(tag);
@@ -67,8 +67,8 @@ export async function getQuotes(
   tag: string,
   lang: Language,
   url: string
-): Promise<(string | null | Quotes)[]> {
-  const list: (string | null | Quotes)[] = [];
+): Promise<(string | Quotes)[]> {
+  const list: (string | Quotes)[] = [];
   if (lang === Language.PT_BR) {
     const dom = await getDom(url);
     const elements = dom.querySelectorAll(tag);

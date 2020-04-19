@@ -1,16 +1,12 @@
 
 <h1 align="center">Bem Vindo ao anime-info 👋</h1>
 <p align="left">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
     <img src="https://img.shields.io/badge/node->=10.0.0-blue.svg?cacheSeconds=2592000" />
      <img src="https://img.shields.io/badge/npm->=5.5.0-blue.svg?cacheSeconds=2592000" />
      <img src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" />
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
-  </a>
 </p>
 
 > Plugin usado para buscar informações de personagens direto do site oficial da  [Fandom](https://www.fandom.com/) e retorna um JSON. 
@@ -44,7 +40,7 @@ import { Naruto } from "anime-info";
 const naruto = new Naruto();
 
 async function searchCharacter(){
-    // retorna uma promesa
+    // retorna uma Promise
 	const itachi = await naruto.getCharacter("Itachi_Uchiha");
 	console.log(itachi);
 }
@@ -54,17 +50,30 @@ searchCharacter();
 ```
 🐛 Você deve usar o nome completo do personagem separando por "_". E uma limitação que irei trabalhar das próximas atualizações
 
-Você também pode desabilitar um ou mais campos.
+Também e possível desabilitar um ou mais campos com a propriedade`exclude`.
 ```ts
 
 const itachi = await naruto.getCharacter("Itachi_Uchiha",{ 
-	name : false,
-	jutsu: false
+	exclude: [
+		"name",
+		"birthday"
+	]
 });
 
 ```
-### 💯 Suporte ao TypeScript
 
+Ou buscar campos específicos com a propriedade `only`
+```ts
+
+const itachi = await naruto.getCharacter("Itachi_Uchiha",{ 
+	only: [
+		"name",
+		"debut"
+	]
+});
+
+```
+Ambos recebem um array de string com o nome exato da propriedade escolhida
 
 ## 🌎 Internacionalização
 
@@ -115,6 +124,37 @@ const naruto = new Naruto({ lang : "es" });
 	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
 </table>
+
+### 📖 Documentação
+
+`getCharacter(name , option): Promise<Object>;`
+
+<table>
+  <tr>
+    <th><span style="font-weight:600;font-style:normal">Opção</span></th>
+    <th><span style="font-weight:600;font-style:normal">Type</span></th>
+    <th >Requirido</th>
+    <th><span style="font-weight:600;font-style:normal">Padrão</span></th>
+    <th><span style="font-weight:600;font-style:normal">Descrição</span></th>
+  </tr>
+  <tr>
+    <td><span style="font-weight:normal;font-style:italic">name</span></td>
+    <td><span style="font-weight:400;font-style:normal">String</span></td>
+    <td>true</td>
+    <td>null</td>
+    <td>Nome do personagem que deseja buscar</td>
+  </tr>
+  <tr style="width: 200px;">
+    <td><span style="font-weight:normal;font-style:italic">option</span></td>
+    <td>Object</td>
+    <td>false</td>
+    <td>{<br>   "exclude": [ ],<br>   "only": [ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`all fields`<br>&nbsp;&nbsp;&nbsp;]<br>}</td>
+    <td>Opções de retorno do <span style="font-style:italic">JSON</span></td>
+  </tr>
+</table>
+
+
+### 💯 Suporte ao TypeScript
 
 ## 🤝   Contribuindo
 

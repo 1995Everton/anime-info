@@ -31,6 +31,14 @@
     "no-underscore-dangle": "off",
     "@typescript-eslint/no-useless-constructor": "error",
     "import/prefer-default-export": "off",
+    "no-empty-function": [
+      "error", 
+      { 
+        "allow": [
+          "constructors"
+        ] 
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",

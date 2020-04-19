@@ -52,16 +52,13 @@ export function getInnerHTML(element: HTMLElement | null): string | null {
   return null;
 }
 
-export function getAndRemoveTagBr(
-  document: Document,
-  tag: string
-): (string | null)[] {
+export function getAndRemoveTagBr(document: Document, tag: string): string[] {
   const string = getInnerHTML(document.querySelector(tag));
   if (typeof string === 'string') {
     return string
       .split('<br>')
       .filter(el => el)
-      .map(el => removeSquareBrackets(stripHTML(el)));
+      .map(el => removeSquareBrackets(stripHTML(el))) as string[];
   }
   return [];
 }
@@ -107,7 +104,7 @@ export function getListElement(
   document: Document,
   tag: string,
   innerHtml = false
-): (string | null)[] {
+): string[] {
   const list: (string | null)[] = [];
   const elements = document.querySelectorAll(tag);
   elements.forEach((el: Element) => {
@@ -117,7 +114,7 @@ export function getListElement(
       list.push(getTextContent(el));
     }
   });
-  return list.filter(el => el);
+  return list.filter(el => el) as string[];
 }
 
 export function getNameAndImage(
