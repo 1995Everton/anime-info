@@ -4,7 +4,7 @@ async function getCharacterNaruto(){
     const naruto = new Naruto({
         lang: "es"
     });
-    const character = await naruto.getCharacter("Hidan")
+    const character = await naruto.getCharacter("Itachi_Uchiha")
     console.log(character);
 }
 

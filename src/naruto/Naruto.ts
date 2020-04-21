@@ -4,39 +4,44 @@ import {
   getAndRemoveTagBr,
   getListElement,
   getNameAndAllImageCharacter
-} from '../utils/elements.dom';
+} from '../shared/utils/elements.dom';
 import {
   NarutoInfo,
   Debut,
   NarutoTags,
   Voices,
   defaultOptionFieldsNaruto,
-  OptionNaruto
+  OptionNaruto,
+  NarutoCharacters,
+  narutoCharacters,
+  Quotes
 } from './models';
-import { Language } from '../shared/enums';
-import { Config, GenericPhoto, AnimesGeneric } from '../shared/models';
-import { CharactersNaruto } from './enums';
+import {
+  Config,
+  GenericPhoto,
+  AnimesGeneric,
+  Language
+} from '../shared/models';
 import {
   getNameAndPhotoTable,
   getVoices,
   getQuotes,
   getTagByLang
 } from './utils';
-import { Quotes } from './models/Quotes';
-import { NarutoOptions } from './enums/NarutoOptions.enum';
 
 export class Naruto extends AnimesGeneric<
-  CharactersNaruto,
+  NarutoCharacters,
   NarutoInfo,
   OptionNaruto,
   NarutoTags
 > {
-  constructor(config: Config = { lang: Language.PT_BR }) {
+  constructor(config: Config = { lang: 'pt-br' }) {
     super(
       config.lang,
       getTagByLang(config.lang),
       `https://naruto.fandom.com/${config.lang}/wiki/`,
-      defaultOptionFieldsNaruto
+      defaultOptionFieldsNaruto,
+      narutoCharacters
     );
   }
 
@@ -44,82 +49,82 @@ export class Naruto extends AnimesGeneric<
     const naruto: NarutoInfo = {};
     const promises = await keys.map(async value => {
       switch (value) {
-        case NarutoOptions.AFFILIATION:
+        case 'affiliation':
           naruto.affiliation = this._affiliation();
           break;
-        case NarutoOptions.AGE:
+        case 'age':
           naruto.age = this._age();
           break;
-        case NarutoOptions.BIRTHDAY:
+        case 'birthday':
           naruto.birthday = this._birthday();
           break;
-        case NarutoOptions.CLAN:
+        case 'clan':
           naruto.clan = this._clan();
           break;
-        case NarutoOptions.CLASSIFICATION:
+        case 'classification':
           naruto.classification = this._classification();
           break;
-        case NarutoOptions.DEBUT:
+        case 'debut':
           naruto.debut = this._debut();
           break;
-        case NarutoOptions.DESCRIPTION:
+        case 'description':
           naruto.description = this._description();
           break;
-        case NarutoOptions.FAMILY:
+        case 'family':
           naruto.family = this._family();
           break;
-        case NarutoOptions.HEIGHT:
+        case 'height':
           naruto.height = this._height();
           break;
-        case NarutoOptions.JUTSU:
+        case 'jutsu':
           naruto.jutsu = await this._jutsu();
           break;
-        case NarutoOptions.KEKKEI_GENKAI:
+        case 'kekkei_genkai':
           naruto.kekkei_genkai = this._kekkei_genkai();
           break;
-        case NarutoOptions.NAME:
+        case 'name':
           naruto.name = this._name();
           break;
-        case NarutoOptions.NATURE_TYPE:
+        case 'nature_type':
           naruto.nature_type = this._nature_type();
           break;
-        case NarutoOptions.NINJA_RANK:
+        case 'ninja_rank':
           naruto.ninja_rank = this._ninja_rank();
           break;
-        case NarutoOptions.NINJA_REGISTRATION:
+        case 'ninja_registration':
           naruto.ninja_registration = this._ninja_registration();
           break;
-        case NarutoOptions.OCCUPATION:
+        case 'occupation':
           naruto.occupation = this._occupation();
           break;
-        case NarutoOptions.PARTNER:
+        case 'partner':
           naruto.partner = this._partner();
           break;
-        case NarutoOptions.PHOTO:
+        case 'photo':
           naruto.photo = this._photo();
           break;
-        case NarutoOptions.QUOTES:
+        case 'quotes':
           naruto.quotes = await this._quotes();
           break;
-        case NarutoOptions.SEX:
+        case 'sex':
           naruto.sex = this._sex();
           break;
-        case NarutoOptions.STATUS:
+        case 'status':
           naruto.status = this._status();
           break;
-        case NarutoOptions.TEAM:
+        case 'team':
           naruto.team = this._team();
           break;
-        case NarutoOptions.TITLES:
+        case 'titles':
           naruto.titles = this._titles();
           break;
-        case NarutoOptions.TOOLS:
+        case 'tools':
           naruto.tools = await this._tools();
           break;
-        case NarutoOptions.VOICES:
+        case 'voices':
           naruto.voices = await this._voices();
           break;
-        case NarutoOptions.WEIGHT:
+        case 'weight':
           naruto.weight = await this._weight();
           break;
         default:

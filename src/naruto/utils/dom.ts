@@ -1,12 +1,11 @@
-import { GenericPhoto } from '../../shared/models';
-import { Language } from '../../shared/enums';
+import { GenericPhoto, Language } from '../../shared/models';
 import {
   getDom,
   removeSpacesString,
   getListElement,
   $Query,
   getTextContent
-} from '../../utils/elements.dom';
+} from '../../shared/utils/elements.dom';
 import { Voices } from '../models';
 import { Quotes } from '../models/Quotes';
 
@@ -16,7 +15,7 @@ export async function getNameAndPhotoTable(
   lang: Language,
   url: string
 ): Promise<string[] | GenericPhoto[]> {
-  if (lang === Language.PT_BR) {
+  if (lang === 'pt-br') {
     const dom = await getDom(url);
     const elements = dom.querySelectorAll(tag);
     const list: GenericPhoto[] = [];
@@ -69,7 +68,7 @@ export async function getQuotes(
   url: string
 ): Promise<(string | Quotes)[]> {
   const list: (string | Quotes)[] = [];
-  if (lang === Language.PT_BR) {
+  if (lang === 'pt-br') {
     const dom = await getDom(url);
     const elements = dom.querySelectorAll(tag);
     elements.forEach(el => {

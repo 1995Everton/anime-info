@@ -40,7 +40,6 @@ import { Naruto } from "anime-info";
 const naruto = new Naruto();
 
 async function searchCharacter(){
-    // retorna uma Promise
 	const itachi = await naruto.getCharacter("Itachi_Uchiha");
 	console.log(itachi);
 }
@@ -48,7 +47,9 @@ async function searchCharacter(){
 searchCharacter();
 
 ```
-🐛 Você deve usar o nome completo do personagem separando por "_". E uma limitação que irei trabalhar das próximas atualizações
+🐛 [Alerta] Você deve usar o nome completo do personagem separando por "_". 
+
+😉 [Dica] Existe também o método `getListCharacters` que retorna uma lista dos personagem mais relevantes.
 
 Também e possível desabilitar um ou mais campos com a propriedade`exclude`.
 ```ts
@@ -73,7 +74,7 @@ const itachi = await naruto.getCharacter("Itachi_Uchiha",{
 });
 
 ```
-Ambos recebem um array de string com o nome exato da propriedade escolhida
+Ambos recebem um array de string com o nome exato da propriedade escolhida.
 
 ## 🌎 Internacionalização
 
@@ -125,9 +126,15 @@ const naruto = new Naruto({ lang : "es" });
   </tr>
 </table>
 
-### 📖 Documentação
+## 📖 Documentação
 
-`getCharacter(name , option): Promise<Object>;`
+### Métodos
+
+#### 📌 getCharacter
+
+- Retorna os dados de um determinado personagem
+
+  `getCharacter(name , option): Promise<Object>;`
 
 <table>
   <tr>
@@ -153,6 +160,11 @@ const naruto = new Naruto({ lang : "es" });
   </tr>
 </table>
 
+#### 📌 getListCharacters
+
+- Retorna uma lista com os nomes dos personagens
+
+ `getListCharacters(): Array<string>;`
 
 ### 💯 Suporte ao TypeScript
 

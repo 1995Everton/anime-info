@@ -1,10 +1,10 @@
 import { NarutoTags } from '../models';
-import { Language } from '../../shared/enums';
-import { TagsPtBr, TagsEs } from '../enums';
+import { Language } from '../../shared/models';
+import { TagsPtBr, TagsEs } from '../enums/tags.enum';
 
 export function getTagByLang(lang: Language): NarutoTags {
   switch (lang) {
-    case Language.PT_BR:
+    case 'pt-br':
       return {
         name: TagsPtBr.Name,
         description: TagsPtBr.Description,
@@ -41,7 +41,7 @@ export function getTagByLang(lang: Language): NarutoTags {
           country: TagsPtBr.VoicesCountry
         }
       };
-    case Language.ES:
+    case 'es':
       return {
         name: TagsEs.Name,
         description: TagsEs.Description,
@@ -78,7 +78,7 @@ export function getTagByLang(lang: Language): NarutoTags {
           country: TagsEs.VoicesCountry
         }
       };
-    case Language.EN:
+    case 'en':
     default:
       throw new Error('language not available');
   }

@@ -1,4 +1,4 @@
-import { Language } from '../enums/Language.enum';
+import { Language } from './Language';
 
 export interface Config {
   lang: Language;

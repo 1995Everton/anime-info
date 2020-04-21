@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
-import { getDom } from '../../utils/elements.dom';
-import { Language } from '../enums';
+import { getDom } from '../utils/elements.dom';
+import { Language } from './Language';
 import { OptionFields } from './OptionsFields';
 
 export abstract class AnimesGeneric<C, I, O, T> {
@@ -9,14 +9,16 @@ export abstract class AnimesGeneric<C, I, O, T> {
     protected readonly _tags: T,
     protected readonly _baseUrl: string,
     protected readonly _defaultOption: OptionFields<O>,
+    protected readonly _all_characters: C[],
     protected _character: string | C = '',
     protected _document: Document = new JSDOM().window.document
   ) {}
 
-  public async getCharacter(
-    name: string | C,
-    option: OptionFields<O> = {}
-  ): Promise<I> {
+  public getListCharacters(): C[] {
+    return this._all_characters;
+  }
+
+  public async getCharacter(name: C, option: OptionFields<O> = {}): Promise<I> {
     try {
       this._character = name;
 

@@ -1,5 +1,5 @@
 import { JSDOM } from 'jsdom';
-import { GenericPhoto } from '../shared/models/GenericsPhoto';
+import { GenericPhoto } from '../models/GenericsPhoto';
 
 export function removeSquareBrackets(value: string | null): string | null {
   if (typeof value === 'string') {

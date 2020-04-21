@@ -1,6 +1,6 @@
 {
   "name": "anime-info",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Everton Patrik Cardoso",
   "description": "Plugin intended to collect informing of anime characters through the fandow wiki",
   "license": "ISC",
@@ -34,7 +34,6 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "eslint-import-resolver-typescript": "^2.0.0",
     "jsdom": "^16.2.0"
   },
   "devDependencies": {
@@ -46,6 +45,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",

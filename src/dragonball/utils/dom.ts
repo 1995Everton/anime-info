@@ -1,6 +1,5 @@
-import { getInnerHTML, cleanString } from '../../utils/elements.dom';
-import { Language } from '../../shared/enums';
-import { GenericPhoto } from '../../shared/models';
+import { getInnerHTML, cleanString } from '../../shared/utils/elements.dom';
+import { GenericPhoto, Language } from '../../shared/models';
 
 export function getTransformations(
   document: Document,
@@ -10,7 +9,7 @@ export function getTransformations(
   const list: (GenericPhoto | string)[] = [];
   const elements = document.querySelectorAll(tag) as NodeListOf<HTMLElement>;
   elements.forEach(element => {
-    if (lang === Language.ES) {
+    if (lang === 'es') {
       list.push(cleanString(getInnerHTML(element)) as string);
     } else {
       let icon: string | null = 'Sem Imagem';

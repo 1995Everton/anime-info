@@ -1,10 +1,10 @@
-import { Language } from '../../shared/enums';
 import { DragonBallTags } from '../models';
 import { TagsPtBr, TagsEs, TagsEn } from '../enums/tags.enum';
+import { Language } from '../../shared/models';
 
 export function getTagByLang(lang: Language): DragonBallTags {
   switch (lang) {
-    case Language.PT_BR:
+    case 'pt-br':
       return {
         name: TagsPtBr.Name,
         description: TagsPtBr.Description,
@@ -22,7 +22,7 @@ export function getTagByLang(lang: Language): DragonBallTags {
         appears: TagsPtBr.Appears,
         transformation: TagsPtBr.Transformation
       };
-    case Language.ES:
+    case 'es':
       return {
         name: TagsEs.Name,
         description: TagsEs.Description,
@@ -40,7 +40,7 @@ export function getTagByLang(lang: Language): DragonBallTags {
         appears: TagsEs.Appears,
         transformation: TagsEs.Transformation
       };
-    case Language.EN:
+    case 'en':
       return {
         name: TagsEn.Name,
         description: TagsEn.Description,

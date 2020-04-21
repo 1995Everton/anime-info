@@ -1,10 +1,10 @@
-import { AnimesGeneric } from '../shared/models/Animes';
-import { CharactersDragonBall } from './enums/CharactersDragonBall.enum';
 import {
   defaultOptionFieldsDragonBall,
   DragonBallTags,
   DragonBallInfo,
-  OptionDragonBall
+  OptionDragonBall,
+  CharactersDragonBall,
+  charactersDragonBall
 } from './models';
 import {
   $Query,
@@ -12,12 +12,10 @@ import {
   getAndRemoveTagBr,
   getListElement,
   getNameAndImageOnly
-} from '../utils/elements.dom';
+} from '../shared/utils/elements.dom';
 
-import { Language } from '../shared/enums';
-import { Config, GenericPhoto } from '../shared/models';
+import { Config, GenericPhoto, AnimesGeneric } from '../shared/models';
 import { getTagByLang, getTransformations } from './utils';
-import { DragonBallOptions } from './enums/DragonBallOptions.enum';
 
 export class DragonBall extends AnimesGeneric<
   CharactersDragonBall,
@@ -25,12 +23,13 @@ export class DragonBall extends AnimesGeneric<
   OptionDragonBall,
   DragonBallTags
 > {
-  constructor(config: Config = { lang: Language.PT_BR }) {
+  constructor(config: Config = { lang: 'pt-br' }) {
     super(
       config.lang,
       getTagByLang(config.lang),
       `https://dragonball.fandom.com/${config.lang}/wiki/`,
-      defaultOptionFieldsDragonBall
+      defaultOptionFieldsDragonBall,
+      charactersDragonBall
     );
   }
 
@@ -38,49 +37,49 @@ export class DragonBall extends AnimesGeneric<
     const dragon_ball: DragonBallInfo = {};
     const promises = await keys.map(async value => {
       switch (value) {
-        case DragonBallOptions.ADDRESS:
+        case 'address':
           dragon_ball.address = this._address();
           break;
-        case DragonBallOptions.ALIAS:
+        case 'alias':
           dragon_ball.alias = this._alias();
           break;
-        case DragonBallOptions.APPEARS:
+        case 'appears':
           dragon_ball.appears = this._appears();
           break;
-        case DragonBallOptions.BIRTHDAY:
+        case 'birthday':
           dragon_ball.birthday = this._birthday();
           break;
-        case DragonBallOptions.DEATH:
+        case 'death':
           dragon_ball.death = this._death();
           break;
-        case DragonBallOptions.DESCRIPTION:
+        case 'description':
           dragon_ball.description = this._description();
           break;
-        case DragonBallOptions.HEIGHT:
+        case 'height':
           dragon_ball.height = this._height();
           break;
-        case DragonBallOptions.NAME:
+        case 'name':
           dragon_ball.name = this._name();
           break;
-        case DragonBallOptions.OCCUPATION:
+        case 'occupation':
           dragon_ball.occupation = this._occupation();
           break;
-        case DragonBallOptions.PHOTO:
+        case 'photo':
           dragon_ball.photo = this._photo();
           break;
-        case DragonBallOptions.RACE:
+        case 'race':
           dragon_ball.race = this._race();
           break;
-        case DragonBallOptions.RELATIVES:
+        case 'relatives':
           dragon_ball.relatives = this._relatives();
           break;
-        case DragonBallOptions.SEX:
+        case 'sex':
           dragon_ball.sex = this._sex();
           break;
-        case DragonBallOptions.TRANSFORMATION:
+        case 'transformation':
           dragon_ball.transformation = this._transformation();
           break;
-        case DragonBallOptions.WEIGHT:
+        case 'weight':
           dragon_ball.weight = this._weight();
           break;
         default:
@@ -118,7 +117,7 @@ export class DragonBall extends AnimesGeneric<
 
   private _alias(): string[] {
     const alias: string[] = [];
-    if (this._lang === Language.ES) {
+    if (this._lang === 'pt-br') {
       alias.push(...getListElement(this._document, this._tags.alias, true));
     } else {
       alias.push(...getAndRemoveTagBr(this._document, this._tags.alias));
@@ -140,7 +139,7 @@ export class DragonBall extends AnimesGeneric<
 
   private _occupation(): string[] {
     const alias: string[] = [];
-    if (this._lang === Language.ES) {
+    if (this._lang === 'pt-br') {
       alias.push(
         ...getListElement(this._document, this._tags.occupation, true)
       );
