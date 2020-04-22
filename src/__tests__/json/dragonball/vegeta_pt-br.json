@@ -1,0 +1,298 @@
+{
+    "name":"Vegeta",
+    "description":"Vegeta ou Príncipe Vegeta é o príncipe da raça Saiyajin e arqui-rival de Goku. Ele é o filho mais velho de Rei Vegeta, o irmão mais velho de Tarble, o marido de Bulma, o pai de Trunks e Bra, e tataravô de Vegeta Jr. Junto com Goku, Gohan, e Piccolo, ele é facilmente um dos personagens mais prominentes da série, recebendo mais desenvolvimento após ser introduzido do que vários personagens.",
+    "sex":"Masculino",
+    "birthday":"Ano 732",
+    "height":"164 cm",
+    "weight":"56 kg",
+    "alias":[
+       "Príncipe dos Saiyajins",
+       "Príncipe Vegeta",
+       "Super Vegeta",
+       "Majin Vegeta",
+       "Vegita",
+       "Vejita",
+       "Vegeta-Sama"
+    ],
+    "race":[
+       "Saiyajin"
+    ],
+    "death":[
+       "Ano 762",
+       "Ano 774",
+       "Ano 801"
+    ],
+    "address":[
+ 
+    ],
+    "occupation":[
+       "Guerreiro"
+    ],
+    "relatives":[
+       "Vegeta do Futuro (equivalente de uma linha do tempo alternativa)",
+       "Rei Vegeta (pai)",
+       "Tarble (irmão)",
+       "Bulma (esposa)",
+       "Dr. Brief (sogro)",
+       "Sra. Brief (sogra)",
+       "Trunks (filho)",
+       "Bra (filha)",
+       "Tights (cunhada)",
+       "Gure (cunhada)",
+       "Bulma Leigh (descendente)",
+       "Vegeta Jr. (descendente)",
+       "Raditz (ex-companheiro)",
+       "Nappa (ex-companheiro)",
+       "Goku (fusão/rival)",
+       "Cópia-Vegeta (clone)",
+       "Cell (clone modificado)",
+       "Kyabe (aluno)",
+       "Whis (mentor)"
+    ],
+    "photo":[
+       {
+          "name":"VegetaVsPuiPuiNV.png",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f3/VegetaVsPuiPuiNV.png/revision/latest/scale-to-width-down/199?cb=20130814172054&path-prefix=pt-br"
+       }
+    ],
+    "appears":[
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/a3/DB_Series.png/revision/latest?cb=20130825200243&path-prefix=pt-br",
+          "name":"Dragon Ball Z"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/46/DBGT_Series.png/revision/latest?cb=20130825201907&path-prefix=pt-br",
+          "name":"Dragon Ball GT"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f4/DBS_logo.png/revision/latest/scale-to-width-down/20?cb=20150618194345&path-prefix=pt-br",
+          "name":"Dragon Ball Super"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/c/cb/Prison_Planet_art.png/revision/latest/scale-to-width-down/35?cb=20180407025242&path-prefix=pt-br",
+          "name":"Super Dragon Ball Heroes: Universe Mission"
+       }
+    ],
+    "transformation":[
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/e/ea/GokuAndVegetaWMATNV.png/revision/latest/scale-to-width-down/180?cb=20150111112537&path-prefix=pt-br",
+          "name":"Vegeta repreende Goku por sair antes da sua luta. A imagem mostra a diferença em altura entre os dois"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/6/68/Vegeta_%28RoF%291.png/revision/latest/scale-to-width-down/180?cb=20150111113523&path-prefix=pt-br",
+          "name":"Vegeta em O Renascimento de ‘F’"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/00/Vegetapan-1-.jpg/revision/latest/scale-to-width-down/180?cb=20150111115305&path-prefix=pt-br",
+          "name":"Vegeta e sua primeira aparição quando ele se prepara para lutar com Goku"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/57/B.png/revision/latest/scale-to-width-down/200?cb=20150111123215&path-prefix=pt-br",
+          "name":"Majin Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/6/66/VegetaNappaRaditzEp104.png/revision/latest/scale-to-width-down/180?cb=20150111151020&path-prefix=pt-br",
+          "name":"Vegeta, Nappa e Raditz após conquistarem o planeta Shikk"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/48/VegetaBulmaEp118.png/revision/latest/scale-to-width-down/180?cb=20150111152313&path-prefix=pt-br",
+          "name":"Bulma sugere que Vegeta tome um banho"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/39/VegetaBulmaEp124-1-.png/revision/latest/scale-to-width-down/180?cb=20150111153029&path-prefix=pt-br",
+          "name":"Bulma mostrando afeição após Vegeta se ferir"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/3d/VegetaBulmaTrunksEp280.png/revision/latest/scale-to-width-down/180?cb=20150111154225&path-prefix=pt-br",
+          "name":"Vegeta e sua família"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/bd/VEGETA_E_RADITZ.jpg/revision/latest/scale-to-width-down/180?cb=20140524013035&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/2b/Napp_-1.jpg/revision/latest/scale-to-width-down/180?cb=20140331200057&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/03/Vegeta_em_Arlia.jpg/revision/latest/scale-to-width-down/180?cb=20140401215233&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/57/Vegeta_Vs_Goku.png/revision/latest/scale-to-width-down/180?cb=20140401222832&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/70/Vegeta_0.png/revision/latest/scale-to-width-down/180?cb=20140401224514&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/97/Vegeta_Vs_Zarbon_2.jpg/revision/latest/scale-to-width-down/180?cb=20140402210708&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/b5/Vegeta_Vs_Guldo.jpg/revision/latest/scale-to-width-down/180?cb=20140402213934&path-prefix=pt-br",
+          "name":"Vegeta Vs Guldo no manga"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/41/Vegeta_vs_Rikum.jpg/revision/latest/scale-to-width-down/180?cb=20140402215311&path-prefix=pt-br",
+          "name":"Vegeta Vs Rikum"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/a3/Vegeta_vs_Freeza.png/revision/latest/scale-to-width-down/180?cb=20140402221807&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/c/c2/Vegeta_Vs_Litts.png/revision/latest/scale-to-width-down/180?cb=20140402232155&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/3e/VegetaSSJ.png/revision/latest/scale-to-width-down/180?cb=20140402233907&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/fa/Vegeta_VS_N_18.png/revision/latest/scale-to-width-down/180?cb=20140403204530&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/df/Super_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20140403210914&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/34/Vegeta_Vs_Cell.png/revision/latest/scale-to-width-down/180?cb=20140403212106&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/1/1b/Vegeta_Vs_Cell_Jr.png/revision/latest/scale-to-width-down/180?cb=20140403214704&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/5f/Vegeta_Vs_Pui_Pui.jpg/revision/latest/scale-to-width-down/180?cb=20140403224638&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f7/Majin_vegeta.jpg/revision/latest/scale-to-width-down/180?cb=20140403230758&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/1/1d/Vegeta_Vs_Goku_0.jpg/revision/latest/scale-to-width-down/180?cb=20140404013313&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/00/Suicidio_de_Vegeta.jpg/revision/latest/scale-to-width-down/180?cb=20140404214211&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/5a/Vegetto_Vs_Buu.png/revision/latest/scale-to-width-down/180?cb=20140404221257&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/73/Vegeta_Vs_Kid_Buu.png/revision/latest/scale-to-width-down/180?cb=20140404223942&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/8/83/Vegeta%2Ctrunks%2C_bulma_and_bra.jpg/revision/latest/scale-to-width-down/180?cb=20140405025600&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/2e/Vegeta_SSJ4.jpg/revision/latest/scale-to-width-down/180?cb=20140407015347&path-prefix=pt-br",
+          "name":""
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/42/Vegeta-1.jpg/revision/latest/scale-to-width-down/180?cb=20150111163233&path-prefix=pt-br",
+          "name":"Vegeta em sua forma normal"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/5f/OozaruVegetaGreatApe.png/revision/latest/scale-to-width-down/180?cb=20150111163404&path-prefix=pt-br",
+          "name":"Oozaru Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/25/VegetaSSIvsSemiPerfectCell.png/revision/latest/scale-to-width-down/180?cb=20150111190334&path-prefix=pt-br",
+          "name":"Vegeta como Super Saiyajin"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/4a/VegetaAscendedSuperSaiyanEp155.png/revision/latest/scale-to-width-down/180?cb=20150111191336&path-prefix=pt-br",
+          "name":"Vegeta Super Saiyajin fase 2"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/94/SSJ2VegetaVersusKidBuu.png/revision/latest/scale-to-width-down/180?cb=20150111205559&path-prefix=pt-br",
+          "name":"Vegeta Super Saiyajin 2"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/53/Group.jpg/revision/latest/scale-to-width-down/140?cb=20150809230136&path-prefix=pt-br",
+          "name":"Vegeta como Super Saiyajin 3"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/d0/SSJ3%C2%B9.jpg/revision/latest/scale-to-width-down/180?cb=20150809230302&path-prefix=pt-br",
+          "name":"GT Vegeta Super Saiyajin 3 em Dragon Ball Heroes"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/31/Veggie_red.png/revision/latest/scale-to-width-down/125?cb=20181228005403&path-prefix=pt-br",
+          "name":"Vegeta como Deus Super Saiyajin"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/0f/Rof_vegeta.jpg/revision/latest/scale-to-width-down/125?cb=20150417172243&path-prefix=pt-br",
+          "name":"Vegeta além de Deus"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/26/Screen_Shot_2015-04-17_at_10.35.00_pm.png/revision/latest/scale-to-width-down/125?cb=20150809225905&path-prefix=pt-br",
+          "name":"Vegeta na forma Super Saiyajin Deus Super Saiyajin"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/71/Vegeta_evol2.png/revision/latest/scale-to-width-down/210?cb=20180302210919&path-prefix=pt-br",
+          "name":"Vegeta como Super Saiyajin Deus Super Saiyajin: Evolução"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/28/A2-1-.jpg/revision/latest/scale-to-width-down/200?cb=20150112164623&path-prefix=pt-br",
+          "name":"Vegeta como Oozaru Dourado"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/de/VegetaSS4DBGT01...png/revision/latest/scale-to-width-down/180?cb=20150112165108&path-prefix=pt-br",
+          "name":"Vegeta como Super Saiyajin 4"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/e/e1/Dark_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20150112165833&path-prefix=pt-br",
+          "name":"Oozaru Vegeta no Modo Vilão"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/dc/Dark_vegeta_base.png/revision/latest/scale-to-width-down/180?cb=20150116170446&path-prefix=pt-br",
+          "name":"Modo Vilão"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/ac/VegetaMajinStateNV.png/revision/latest/scale-to-width-down/180?cb=20150112170030&path-prefix=pt-br",
+          "name":"Majin Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/8/8b/HJ5-CP1.jpg/revision/latest/scale-to-width-down/180?cb=20150121014431&path-prefix=pt-br",
+          "name":"Majin Vegeta Super Saiyajin 3 em Dragon Ball Heroes"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/58/Janemba_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20150112171412&path-prefix=pt-br",
+          "name":"Vegeta sob o controle de Janemba"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/22/Dragon_ball_gt_vol_06_preparation_profilelarge.jpg/revision/latest/scale-to-width-down/180?cb=20150112172040&path-prefix=pt-br",
+          "name":"Super Baby Vegeta 2"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/3e/VegitoDBZEp268.png/revision/latest/scale-to-width-down/180?cb=20130124042849&path-prefix=pt-br",
+          "name":"Vegetto, o resultado da fusão Potara de Goku e Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/d0/200px-Gogeta_photo.jpg/revision/latest/scale-to-width-down/180?cb=20130124043704&path-prefix=pt-br",
+          "name":"Gogeta em sua forma Super Saiyajin"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/7d/GogetaSuperSaiyan4Smiling4-1-.jpg/revision/latest/scale-to-width-down/180?cb=20150112174358&path-prefix=pt-br",
+          "name":"Gogeta Super Saiyajin 4"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/06/Vegenks.PNG/revision/latest/scale-to-width-down/100?cb=20160916191951&path-prefix=pt-br",
+          "name":"Vegenks"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/d0/Pinita.png/revision/latest/scale-to-width-down/150?cb=20160813034234&path-prefix=pt-br",
+          "name":"Pinita"
+       }
+    ]
+ }

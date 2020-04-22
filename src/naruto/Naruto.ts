@@ -45,7 +45,8 @@ export class Naruto extends AnimesGeneric<
     );
   }
 
-  protected async toJson(keys: OptionNaruto[]): Promise<NarutoInfo> {
+  protected async _toJson(keys: OptionNaruto[]): Promise<NarutoInfo> {
+    if (!keys || !Array.isArray(keys) || !keys.length) return {};
     const naruto: NarutoInfo = {};
     const promises = await keys.map(async value => {
       switch (value) {
@@ -122,10 +123,10 @@ export class Naruto extends AnimesGeneric<
           naruto.tools = await this._tools();
           break;
         case 'voices':
-          naruto.voices = await this._voices();
+          naruto.voices = this._voices();
           break;
         case 'weight':
-          naruto.weight = await this._weight();
+          naruto.weight = this._weight();
           break;
         default:
           break;

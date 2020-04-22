@@ -1,0 +1,195 @@
+{
+    "name":"Itachi Uchiha",
+    "description":"Itachi Uchiha (うちはイタチ, Uchiha Itachi) era el hermano mayor de Sasuke Uchiha. Fue un prodigioso shinobi de Konohagakure infiltrado en la organización ANBU como un doble espía. Después de masacrar al Clan Uchiha, se unió a Akatsuki donde su compañero asignado fue Kisame Hoshigaki, en el anime su primer compañero fue Jūzō Biwa. Llevaba el anillo \"Escarlata\" (朱, Shu) en el dedo anular derecho.",
+    "photo":[
+       {
+          "name":"Parte I y II",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/c/c8/Itachi_Uchiha_Parte_I_y_II_Anime.png/revision/latest/scale-to-width-down/350?cb=20170113110759&path-prefix=es"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/e/e6/Itachi_Uchiha_Parte_I_y_II_Manga.png/revision/latest/scale-to-width-down/350?cb=20160320151915&path-prefix=es"
+       }
+    ],
+    "titles":[
+       "Sharingan no Itachi",
+       "Ichizokugoroshi no Itachi"
+    ],
+    "birthday":"9 de junio",
+    "status":"Muerto",
+    "age":[
+       "Parte I: 18",
+       "Parte II: 21"
+    ],
+    "height":[
+       "Niño: 1,30 m",
+       "Adolescente: 1,48 m",
+       "Parte I:1,75.2 m",
+       "Parte II:1,78 m"
+    ],
+    "classification":[
+       "Criminal",
+       "Rango S"
+    ],
+    "team":[
+       "Equipo 2",
+       "Escuadrón Dōjutsu",
+       "Equipo Ro"
+    ],
+    "partner":[
+       "Tenma Izumo",
+       "Shinko Inari",
+       "Jūzō Biwa",
+       "Kisame Hoshigaki",
+       "Nagato"
+    ],
+    "occupation":[
+       "Capitán ANBU (Anteriormente)"
+    ],
+    "ninja_rank":[
+       "ANBU"
+    ],
+    "ninja_registration":"012110",
+    "family":[
+ 
+    ],
+    "nature_type":[
+       {
+          "name":"Fuego",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+       },
+       {
+          "name":"Viento",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+       },
+       {
+          "name":"Agua",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+       },
+       {
+          "name":"Yin",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/d/d3/Elemento_Yin.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+       },
+       {
+          "name":"Yang",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/d/d9/Elemento_Yang.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+       }
+    ],
+    "sex":"Masculino",
+    "debut":{
+       "anime":"Naruto Episodio #80",
+       "game":"Naruto: Ultimate Ninja 2",
+       "manga":"Capítulo #139",
+       "movie":"Road to Ninja: Naruto la Película",
+       "novel":"Naruto Crónicas del Trueno – El día en que el lobo aulló",
+       "ova":"El Festival Deportivo de Konoha"
+    },
+    "kekkei_genkai":[
+       {
+          "name":"Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/7/71/Sharingan_de_3_aspas.svg/revision/latest/scale-to-width-down/18?cb=20130427184047&path-prefix=es"
+       },
+       {
+          "name":"Mangekyō Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/8f/Mangeky%C5%8D_Sharingan_de_Itachi.svg/revision/latest/scale-to-width-down/18?cb=20130303100953&path-prefix=es"
+       }
+    ],
+    "affiliation":[
+       {
+          "name":"Konohagakure",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es"
+       },
+       {
+          "name":"Akatsuki",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/9/96/S%C3%ADmbolo_de_Akatsuki.svg/revision/latest/scale-to-width-down/18?cb=20130303103416&path-prefix=es"
+       }
+    ],
+    "clan":[
+       {
+          "name":"Clan Uchiha",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/9/95/S%C3%ADmbolo_de_Clan_Uchiha.svg/revision/latest/scale-to-width-down/18?cb=20130403185501&path-prefix=es"
+       }
+    ],
+    "weight":[
+       "Parte I:57.1 kg",
+       "Parte II:58 kg"
+    ],
+    "voices":[
+       {
+          "name":"Hideo Ishikawa",
+          "country":"Japonés"
+       },
+       {
+          "name":"Héctor Emmanuel GómezMarco Guerrero (Naruto Shippūden: Ultimate Ninja Storm 4)",
+          "country":"Español (Latino)"
+       },
+       {
+          "name":"Roberto Cuenca Rodríguez Jr",
+          "country":"Español (España)"
+       }
+    ],
+    "jutsu":[
+       "Amaterasu: Doble Capa",
+       "Amaterasu",
+       "Caída del Halcón Peregrino",
+       "Celestial Cuchillada de Viento",
+       "Cuatro Estaciones Turbulentas",
+       "Cuerpo Completo — Susanoo",
+       "Dispersión de Cuervos",
+       "Dōjutsu: Calma Poderosa",
+       "Dōjutsu: Inferno",
+       "Efímero",
+       "Elemento Agua: Bala Colmillo de Agua",
+       "Elemento Agua: Jutsu Misil Dragón de Agua",
+       "Elemento Fuego: Esfera Uchiha Gran Llama",
+       "Elemento Fuego: Gran Llamarada de Fuego",
+       "Elemento Fuego: Jutsu Gran Bola de Fuego",
+       "Elemento Fuego: Jutsu Gran Dragón de Fuego",
+       "Elemento Fuego: Jutsu Llamas del Sabio Fénix",
+       "Elemento Fuego: Uñas de Carmesí Flor de Llamas de Fénix",
+       "Espada de Totsuka: Cuchilladas en Serie",
+       "Fantasía",
+       "Flama Calamidad",
+       "Genjutsu: Llamas Desconocidas",
+       "Genjutsu: Sharingan",
+       "Genjutsu: Yaksha Tiburones y Aves",
+       "Gran Explosión del Clon",
+       "Ilusión Demoníaca: Cuerpo de Papel Ardiente",
+       "Ilusión Demoníaca: Espejismo de Cuervos",
+       "Ilusión Demoníaca: Espejo del Cielo y Cambio de la Tierra",
+       "Ilusión Demoníaca: Jutsu Estacas de Encadenamiento",
+       "Ilusión Demoníaca: Parálisis de Clavos",
+       "Izanami",
+       "Jutsu: Clon de Agua",
+       "Jutsu: Clon de Cuervos",
+       "Jutsu: Clon de Sombra",
+       "Jutsu: Nube de Polvo Encendida",
+       "Jutsu de Invocación",
+       "Cuervos",
+       "Mangekyō Espada Tiburón",
+       "Modo Tsukuyomi",
+       "Primer Sacrificio",
+       "Sello de Transcripción",
+       "Sharingan: Confusión Negativa",
+       "Susanoo",
+       "Susanoo: Puño",
+       "Técnica de la Llegada del Fénix Relámpago",
+       "Tiro del Clon Sombra",
+       "Tsukuyomi",
+       "Tsukuyomi: Dios Solar",
+       "Tsukuyomi: Sueño Negro",
+       "Yasaka no Magatama"
+    ],
+    "tools":[
+       "Armadura de Batalla Shinobi",
+       "Espada",
+       "Espada de Totsuka",
+       "Espada del Susanoo",
+       "Espejo de Yata",
+       "Kunai",
+       "Shuriken"
+    ],
+    "quotes":[
+ 
+    ]
+ }

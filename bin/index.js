@@ -2,7 +2,7 @@ const{ Naruto, DragonBall } = require("../dist")
 
 async function getCharacterNaruto(){
     const naruto = new Naruto({
-        lang: "es"
+        lang: "pt-br"
     });
     const character = await naruto.getCharacter("Itachi_Uchiha")
     console.log(character);

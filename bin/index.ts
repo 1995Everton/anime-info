@@ -4,9 +4,7 @@ async function getCharacterNaruto() {
   const naruto = new Naruto({
     lang: 'pt-br'
   });
-  const character = await naruto.getCharacter('Temari', {
-    exclude: ['name']
-  });
+  const character = await naruto.getCharacter('Itachi_Uchiha', {});
   console.log(character);
 }
 
@@ -14,10 +12,9 @@ async function getCharacterDragonBall() {
   const dragon_ball = new DragonBall({
     lang: 'pt-br'
   });
-  const character = await dragon_ball.getCharacter('Goku', {
-    exclude: ['name', 'birthday']
-  });
+  const character = await dragon_ball.getCharacter('Vegeta', {});
   console.log(character);
 }
 
-getCharacterDragonBall();
+getCharacterNaruto();
+// getCharacterDragonBall();

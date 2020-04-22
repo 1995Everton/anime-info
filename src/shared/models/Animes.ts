@@ -41,11 +41,11 @@ export abstract class AnimesGeneric<C, I, O, T> {
         keys.push(...only_default);
       }
 
-      return this.toJson(keys);
+      return this._toJson(keys);
     } catch (error) {
       throw new Error('The requested Character does not exist');
     }
   }
 
-  protected abstract async toJson(keys: O[]): Promise<I>;
+  protected abstract async _toJson(keys: O[]): Promise<I>;
 }

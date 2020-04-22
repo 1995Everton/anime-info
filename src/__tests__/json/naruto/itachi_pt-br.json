@@ -1,0 +1,345 @@
+{
+    "name":"Itachi Uchiha",
+    "description":"Itachi Uchiha (うちはイタチ, Uchiha Itachi) foi um prodígio do clã Uchiha de Konohagakure. Ele se tornou um criminoso internacional depois de assassinar seu clã inteiro, poupando apenas seu irmão mais novo, Sasuke. Ele se juntou a Akatsuki, onde ele entrou em frequentes conflitos com Konoha e seus ninjas, incluindo Sasuke, que procurou vingar sua família. Depois de morrer durante uma batalha com Sasuke, as motivações de Itachi foram reveladas serem mais complicadas do que pareciam ele só queria proteger seu irmão e a vila, permanecendo um shinobi leal a Konohagakure até o fim.",
+    "photo":[
+       {
+          "name":"Fase I",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/8d/UchihaItachi.png/revision/latest/scale-to-width-down/310?cb=20180420021356&path-prefix=pt-br"
+       },
+       {
+          "name":"Fase II",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/2/24/Itachi-Uchiha.png/revision/latest/scale-to-width-down/310?cb=20181104200812&path-prefix=pt-br"
+       },
+       {
+          "name":"Passado",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/5/53/Itachi1.png/revision/latest/scale-to-width-down/310?cb=20110612220807&path-prefix=pt-br"
+       }
+    ],
+    "titles":[
+       "Uchiha Itachi",
+       "Akatsuki no Itachi",
+       "Sharingan no Itachi",
+       "Ichizokugoroshi no Itachi"
+    ],
+    "birthday":"09 de Junho",
+    "status":"Morto",
+    "age":[
+       "Parte I: 17-18",
+       "Parte II: 21"
+    ],
+    "height":[
+       "Parte I: 175.2 cm",
+       "Parte II: 178 cm"
+    ],
+    "classification":[
+       "Rank S",
+       "Nukenin"
+    ],
+    "team":[
+       "Time Ro",
+       "Time 2"
+    ],
+    "partner":[
+       "Jūzō Biwa",
+       "Kisame Hoshigaki"
+    ],
+    "occupation":[
+       "Capitão da Anbu (Anterior)"
+    ],
+    "ninja_rank":[
+       "Anbu",
+       "Anbu"
+    ],
+    "ninja_registration":"012110",
+    "family":[
+       "Fugaku Uchiha",
+       "Mikoto Uchiha",
+       "Sasuke Uchiha",
+       "Sakura Haruno",
+       "Sarada Uchiha"
+    ],
+    "nature_type":[
+       {
+          "name":"Liberação de Água",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/3/35/S%C3%ADmbolo_Suiton.svg/revision/latest/scale-to-width-down/18?cb=20120917000713&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Fogo",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/60/S%C3%ADmbolo_Katon.svg/revision/latest/scale-to-width-down/18?cb=20120905205256&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Vento",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/83/S%C3%ADmbolo_Futon.svg/revision/latest/scale-to-width-down/18?cb=20121006184633&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Yang",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/f/f8/S%C3%ADmbolo_Yang.svg/revision/latest/scale-to-width-down/18?cb=20120914132811&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Yin",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/b/be/S%C3%ADmbolo_Inton.svg/revision/latest/scale-to-width-down/18?cb=20120914132742&path-prefix=pt-br"
+       }
+    ],
+    "sex":"Masculino",
+    "debut":{
+       "anime":"Episódio 80",
+       "game":"Naruto: Ultimate Ninja 2",
+       "manga":"Capítulo 139",
+       "movie":"Naruto 6: Road to Ninja",
+       "novel":"Naruto Jinraiden: O Dia que o Lobo Uivou",
+       "ova":null
+    },
+    "kekkei_genkai":[
+       {
+          "name":"Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/7/7e/S%C3%ADmbolo_Sharingan_Triplo.svg/revision/latest/scale-to-width-down/18?cb=20120914213534&path-prefix=pt-br"
+       },
+       {
+          "name":"Mangekyō Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/2/20/S%C3%ADmbolo_MS_Itachi.svg/revision/latest/scale-to-width-down/18?cb=20120905210331&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Chama",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/f/fb/S%C3%ADmbolo_Enton.svg/revision/latest/scale-to-width-down/18?cb=20121010212020&path-prefix=pt-br"
+       }
+    ],
+    "affiliation":[
+       {
+          "name":"Konohagakure",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/85/S%C3%ADmbolo_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20170413161626&path-prefix=pt-br"
+       },
+       {
+          "name":"Akatsuki",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/66/S%C3%ADmbolo_Akatsuki.svg/revision/latest/scale-to-width-down/18?cb=20120914215732&path-prefix=pt-br"
+       }
+    ],
+    "clan":[
+       {
+          "name":"Clã Uchiha",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/85/S%C3%ADmbolo_Cl%C3%A3_Uchiha.svg/revision/latest/scale-to-width-down/18?cb=20120914213218&path-prefix=pt-br"
+       }
+    ],
+    "weight":[
+       "Parte I: 57.1 kg",
+       "Parte II: 58 kg"
+    ],
+    "voices":[
+       {
+          "name":"Hideo IshikawaYuka Terasaki (Criança)",
+          "country":"Japonês"
+       },
+       {
+          "name":"Reinaldo Rodrigues",
+          "country":"Português"
+       }
+    ],
+    "jutsu":[
+       {
+          "name":"Amaterasu",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/0/0c/Amaterasu_%28Itachi-Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151219001824&path-prefix=pt-br"
+       },
+       {
+          "name":"Ame no Ohabari",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/a/a3/Ame_no_Ohabari_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20190318111711&path-prefix=pt-br"
+       },
+       {
+          "name":"Coerção Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/9/9e/Deidara_admirado_pelo_poder_do_Sharingan.png/revision/latest/scale-to-width-down/200?cb=20160329031658&path-prefix=pt-br"
+       },
+       {
+          "name":"Contra Genjutsu",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/d/d7/Contra_Genjutsu_Colorido_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160814182304&path-prefix=pt-br"
+       },
+       {
+          "name":"Efêmero",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/3/31/Ef%C3%AAmero_%28Mang%C3%A1_-_Colorido%29.png/revision/latest/scale-to-width-down/200?cb=20160208000723&path-prefix=pt-br"
+       },
+       {
+          "name":"Espada de Totsuka",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/a/a2/Espada_de_Totsuka_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20150523172037&path-prefix=pt-br"
+       },
+       {
+          "name":"Espelho de Yata",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/a/ae/Espelho_de_Yata_%28Mang%C3%A1_Colorido%29.png/revision/latest/scale-to-width-down/200?cb=20160322191416&path-prefix=pt-br"
+       },
+       {
+          "name":"Genjutsu: Sharingan",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/3/38/Genjutsu_-_Mangeky%C5%8D_Sharingan_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191348&path-prefix=pt-br"
+       },
+       {
+          "name":"Grande Explosão do Clone",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/1/1d/Grande_Explos%C3%A3o_do_Clone_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191432&path-prefix=pt-br"
+       },
+       {
+          "name":"Ilusão Demoníaca: Miragem do Corvo",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/88/Ilus%C3%A3o_Demon%C3%ADaca_-_Miragem_do_Corvo_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151220021907&path-prefix=pt-br"
+       },
+       {
+          "name":"Ilusão Demoníaca: Mudança do Espelho do Céu e da Terra",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/c/c5/Ilus%C3%A3o_Demon%C3%ADaca_-_Mudan%C3%A7a_do_Espelho_do_C%C3%A9u_e_da_Terra_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191445&path-prefix=pt-br"
+       },
+       {
+          "name":"Ilusão Demoníaca: Técnica de Estacas de Agrilhoar",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/b/bf/Estacas_de_Agrilhoar_%28Mang%C3%A1%29.PNG/revision/latest/scale-to-width-down/200?cb=20160106175010&path-prefix=pt-br"
+       },
+       {
+          "name":"Izanami",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/2/2b/Izanami_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151221155229&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Água: Projétil da Presa de Água",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/4/4d/Libera%C3%A7%C3%A3o_de_%C3%81gua_-_Proj%C3%A9til_da_Presa_de_%C3%81gua_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191500&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Água: Técnica do Projétil de Água",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/8d/Proj%C3%A9til_do_Drag%C3%A3o_de_%C3%81gua_%28Itachi-Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151221155144&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Água: Técnica do Projétil do Dragão de Água",
+          "icon":"Sem Imagem"
+       },
+       {
+          "name":"Liberação de Fogo: Flor da Fênix Sábia do Prego Carmesim",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/8c/F%C3%AAnix_S%C3%A1bia_da_Flor_do_Prego_Carmesim_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151221155158&path-prefix=pt-br"
+       },
+       {
+          "name":"Liberação de Fogo: Técnica da Fênix Sábia de Fogo",
+          "icon":"Sem Imagem"
+       },
+       {
+          "name":"Liberação de Fogo: Técnica da Grande Bola de Fogo",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/9/90/Libera%C3%A7%C3%A3o_de_Fogo_-_T%C3%A9cnica_da_Grande_Bola_de_Fogo_%28Itachi-Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151220021936&path-prefix=pt-br"
+       },
+       {
+          "name":"Selo de Transcrição: Amaterasu",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/8/8b/Itachi_toca_a_testa_de_Sasuke_%28colorido%29.png/revision/latest/scale-to-width-down/200?cb=20151219001858&path-prefix=pt-br"
+       },
+       {
+          "name":"Selo de Transcrição: Kotoamatsukami",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/6e/Selo_de_Transcri%C3%A7%C3%A3o_-_Kotoamatsukami_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151221155213&path-prefix=pt-br"
+       },
+       {
+          "name":"Susanoo",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/c/c8/Susanoo_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191534&path-prefix=pt-br"
+       },
+       {
+          "name":"Técnica de Invocação: Corvos",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/f/f1/T%C3%A9cnica_de_Invoca%C3%A7%C3%A3o_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191551&path-prefix=pt-br"
+       },
+       {
+          "name":"Técnica de Passagem do Sistema de Sensoriamento",
+          "icon":"Sem Imagem"
+       },
+       {
+          "name":"Técnica do Clone de Corvo",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/c/c1/T%C3%A9cnica_do_Clone_de_Corvo_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151219001911&path-prefix=pt-br"
+       },
+       {
+          "name":"Técnica dos Clones das Sombras",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/d/df/T%C3%A9cnica_Clones_das_Sombras_%28Itachi_-_Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191529&path-prefix=pt-br"
+       },
+       {
+          "name":"Tsukuyomi",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/0/04/Tsukuyomi_%28Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20160322191608&path-prefix=pt-br"
+       },
+       {
+          "name":"Yasaka Magatama",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/d/d9/Yasaka_Magatama_%28Itachi-Mang%C3%A1%29.png/revision/latest/scale-to-width-down/200?cb=20151216015504&path-prefix=pt-br"
+       }
+    ],
+    "tools":[
+       {
+          "name":"Espada",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/f/f3/Espada_%28Itachi%29.png/revision/latest/scale-to-width-down/200?cb=20130907211322&path-prefix=pt-br"
+       },
+       {
+          "name":"Espada de Totsuka",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/2/24/Espada_de_Totsuka.png/revision/latest/scale-to-width-down/200?cb=20160114202541&path-prefix=pt-br"
+       },
+       {
+          "name":"Espelho de Yata",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/6d/Espelho_Yata.png/revision/latest/scale-to-width-down/200?cb=20160114202609&path-prefix=pt-br"
+       },
+       {
+          "name":"Tantō (Apenas Anime)",
+          "icon":"https://vignette.wikia.nocookie.net/naruto/images/6/61/Tant%C5%8D_%28Itachi%29.png/revision/latest/scale-to-width-down/200?cb=20160325044326&path-prefix=pt-br"
+       }
+    ],
+    "quotes":[
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Perdoe-me Sasuke... Mais uma vez, da próxima vez.\" (「許せサスケ…また今度だ」, \"Yuruse Sasuke… Mata kondo da.)\"",
+          "situation":"Enquanto cutuca a testa de Sasuke, quando crianças."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Ser o melhor não é tudo. Quando você tem poder, você se torna arrogante e distante. Mesmo que seja algo que você sempre quis.\"",
+          "situation":"Conversando Sasuke, quando crianças."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Você e eu somos de carne e osso. Eu sempre vou estar lá para você, mesmo que seja apenas como um obstáculo para você superar. Mesmo se você me odeie. Isso é o que os irmãos mais velhos são.\"",
+          "situation":"Conversando Sasuke, quando crianças."
+       },
+       {
+          "phrase":"Yashiro, Tekka e Inabi",
+          "recipient":"\"Você se apega a organização e seu nome de clã. Essas coisas nos limitam e limitam as nossas capacidades... Estas coisas merecem ser evitadas. É tolice temer o que ainda temos de ver e conhecer!\"",
+          "situation":"Quando vão tirar satisfações com Itachi."
+       },
+       {
+          "phrase":"Yashiro, Tekka e Inabi",
+          "recipient":"\"Eu já tive o suficiente, não há esperança para este clã patético. Você se esquece do que é mais importante para você, porque você se apega a algo pequeno como o seu clã. A verdadeira mudança não pode ser feita se for obrigado pelas leis e limitações, previsões e imaginação.\"",
+          "situation":"Quando vão tirar satisfações com Itachi."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Não há nenhum valor em matar alguém como você... Meu irmão tolo... Se você quer me matar... me xingue! Me odeie! E viva uma vida longa e sem graça... fugir... fugir... e se apegar a sua vida miserável.\" (「貴様など…殺す価値も無い。…愚かなる弟よ……。このオレを殺したくば、恨め!憎め!そして みにくく生きのびるがいい………。…逃げて逃げて…生にしがみつくがいい。」, \"Kisama nado… Korosu kachi mo nai. …Orokanaru otōto yo…… Kono ore o koroshitakuba, urame! Nikume! Soshite, minikuku ikinobiru ga ii……… …Nigete nigete… Sei ni shigamitsuku ga ii.\")",
+          "situation":"Depois de dizimar o clã."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"As pessoas vivem suas vidas ligadas pelo que elas aceitam como correto e verdadeiro. É assim que elas definem \"realidade\". Mas o que significa ser \"correto\" ou \"verdadeiro\"? Meramente conceitos vagos... a sua \"realidade\" tudo pode ser uma miragem. Podemos considerá-los simplesmente estar vivendo em seu próprio mundo, moldado por suas crenças?\"",
+          "situation":"Em sua luta com Sasuke."
+       },
+       {
+          "phrase":"Sasuke bebê",
+          "recipient":"\"Não chore, Sasuke. Seu irmão mais velho está aqui para protegê-lo, não importa o que aconteça.\"",
+          "situation":"Antes do ataque da Kyūbi em Konoha."
+       },
+       {
+          "phrase":"Kisame",
+          "recipient":"\"Somos seres humanos, não de peixes. Nós não sabemos que tipo de pessoas nós somos verdadeiramente até o momento antes de nossa morte. Quando a morte chegar para abraçar você, você vai perceber que você é. Essa é que é a morte, você não acha?\"",
+          "situation":"Depois que Kisame contou a história dos tubarões."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Perdoe-me Sasuke... ...Isto acaba com isso.\" (「許せサスケ……これで最後だ」, \"Yuruse Sasuke… …Kore de saigo da.\")",
+          "situation":"Últimas palavras."
+       },
+       {
+          "phrase":"Shisui",
+          "recipient":"\"O auto-sacrifício... Um shinobi sem nome, que protege a paz dentro de sua sombra... Isso é um verdadeiro shinobi.\"",
+          "situation":"Sobre os ensinamentos de Shisui para ele."
+       },
+       {
+          "phrase":"Ele mesmo",
+          "recipient":"\"A vila tem o seu lado negro e suas inconsistências, mas eu ainda sou Itachi Uchiha de Konoha.\"",
+          "situation":"Sobre Konoha."
+       },
+       {
+          "phrase":"Kabuto",
+          "recipient":"\"Aqueles que não conseguem reconhecer seu verdadeiro ser está fadado ao fracasso.\"",
+          "situation":"Sobre a ambição de Kabuto."
+       },
+       {
+          "phrase":"Kabuto",
+          "recipient":"\"Aquilo (imitando alguém que você respeita) é algo que você faz, a fim de crescer. Você não pode usá-lo como um disfarce para fingir ser alguém que não é.\"",
+          "situation":"Sobre a ambição de Kabuto."
+       },
+       {
+          "phrase":"Sasuke",
+          "recipient":"\"Você não tem que me perdoar. Não importa o que aconteça com você de agora em diante, eu sempre vou te amar.\"",
+          "situation":"Últimas palavras depois da reencarnação."
+       }
+    ]
+ }

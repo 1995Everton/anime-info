@@ -1,0 +1,143 @@
+{
+    "name":"Vegeta",
+    "description":"Vegeta IV (ベジータ四世Kan, Bejīta Yon-seiHep Jap), reconocido oficialmente como el Príncipe Vegeta (ベジータ王子Kan, Bejīta-ōjiHep Jap) y más conocido simplemente como Vegeta (ベジータKan, BejītaHep Jap) o Vegeeta, es el deuteragonista de Dragon Ball Z, Dragon Ball Z Kai, Dragon Ball GT y Dragon Ball Super. Es el hijo mayor del Rey Vegeta III, así como el príncipe más reciente de la Familia Real Saiyan y uno de los pocos superviviente tras el Genocidio de los Saiyan del Planeta Vegeta del Universo 7, destruido a manos de Freezer. Es el eterno rival de Son Goku, hermano mayor de Tarble, el esposo de Bulma, padre de Trunks y Bra y ancestro de Vegeta Jr.",
+    "sex":"♂ Masculino",
+    "birthday":"Año 732",
+    "height":null,
+    "weight":null,
+    "alias":[
+       "Vegeeta",
+       "Príncipe Vegeta",
+       "Veyita",
+       "Vegita"
+    ],
+    "race":[
+       "Saiyan"
+    ],
+    "death":[
+       "Año 762",
+       "Año 774",
+       "Año 779",
+       "revertida",
+       "Año 801",
+       "Dragon Ball Online",
+       "Año 889",
+       "100 Años Después",
+       "Dragon Ball GT"
+    ],
+    "address":[
+       "Corporación Cápsula",
+       "Tierra"
+    ],
+    "occupation":[
+       "Príncipe de la Familia Real Saiyan"
+    ],
+    "relatives":[
+       "Bulma",
+       "Trunks",
+       "Bra",
+       "Trunks del Futuro Alternativo",
+       "Vegeta del Futuro Alternativo",
+       "Rey Vegeta III",
+       "Tarble",
+       "Dr. Brief",
+       "Panchy",
+       "Tight",
+       "Gure",
+       "Madre de Vegeta Jr.",
+       "Vegeta Jr."
+    ],
+    "photo":[
+       {
+          "name":"DBZ-DBS",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/30/Vegeta_DBS_Broly_dise%C3%B1o.png/revision/latest/scale-to-width-down/181?cb=20180819235209&path-prefix=es"
+       },
+       {
+          "name":"'F'",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f0/Vegeta_FnF.png/revision/latest?cb=20170704042747&path-prefix=es"
+       },
+       {
+          "name":"Niño",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/0c/Vegeta_ni%C3%B1o_Artwork.png/revision/latest/scale-to-width-down/350?cb=20160514175140&path-prefix=es"
+       },
+       {
+          "name":"GT",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/71/Vegeta_GT_Render.png/revision/latest/scale-to-width-down/350?cb=20171129055403&path-prefix=es"
+       },
+       {
+          "name":"Heroes",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/54/Vegeta_DBHUVM.png/revision/latest/scale-to-width-down/350?cb=20191226195131&path-prefix=es"
+       }
+    ],
+    "appears":[
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/ba/DB_%28Original_1%29.png/revision/latest/scale-to-width-down/70?cb=20120921162312&path-prefix=es",
+          "name":"Dragon Ball (manga)"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f7/Jaco_el_Patrullero_Gal%C3%A1ctico_logo.png/revision/latest/scale-to-width-down/20?cb=20181007222839&path-prefix=es",
+          "name":"Jaco el Patrullero Galáctico"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/6/6a/Dragon_Ball_Z.png/revision/latest/scale-to-width-down/20?cb=20090118070225&path-prefix=es",
+          "name":"Dragon Ball Z"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/96/Dragon_ball_kai_logo.png/revision/latest/scale-to-width-down/50?cb=20121215211421&path-prefix=es",
+          "name":"Dragon Ball Z Kai"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/e/eb/DBZKAI2.png/revision/latest/scale-to-width-down/40?cb=20191110220653&path-prefix=es",
+          "name":"Dragon Ball Z Kai: Los capítulos finales"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f4/DBS_logo.png/revision/latest/scale-to-width-down/20?cb=20180718045118&path-prefix=es",
+          "name":"Dragon Ball Super"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/d7/DBGT_Logo.png/revision/latest/scale-to-width-down/35?cb=20090118070411&path-prefix=es",
+          "name":"Dragon Ball GT"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/7c/Novela_ligera_logo.png/revision/latest/scale-to-width-down/20?cb=20181030023956&path-prefix=es",
+          "name":null
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/49/Esfera_del_Drag%C3%B3n_Oscura_SDBHMRD.png/revision/latest/scale-to-width-down/20?cb=20191209230957&path-prefix=es",
+          "name":"Super Dragon Ball Heroes: ¡Misión al Reino Demoníaco Oscuro!"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f2/SDBHUVM_logo.png/revision/latest?cb=20180701164417&path-prefix=es",
+          "name":"Super Dragon Ball Heroes: Misión del universo (desambiguación)"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/6/6b/%C3%81rbol_c%C3%B3smico_artwork_manga.png/revision/latest/scale-to-width-down/20?cb=20200409222642&path-prefix=es",
+          "name":"Super Dragon Ball Heroes: Misión del Big Bang (desambiguación)"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/be/Gamepad.svg/revision/latest/scale-to-width-down/20?cb=20110925193632&path-prefix=es",
+          "name":"Aparece en videojuegos"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/1/19/Icono_pelicula.png/revision/latest/scale-to-width-down/20?cb=20150613062705&path-prefix=es",
+          "name":"Aparece en películas"
+       }
+    ],
+    "transformation":[
+       "Mono gigante",
+       "Super Saiyan",
+       "Super Saiyan Segundo Grado",
+       "Super Saiyan Tercer Grado",
+       "Super Saiyan Máximo Poder",
+       "Super Saiyan 2",
+       "Vegeta Príncipe de la Destrucción",
+       "Super Saiyan 3",
+       "Mono gigante dorado",
+       "Super Saiyan 4",
+       "Super Saiyan Dios",
+       "Saiyan más Allá de Dios",
+       "Super Saiyan Azul",
+       "Super Saiyan Azul Perfeccionado",
+       "Super Saiyan Dios Super Saiyan Evolución"
+    ]
+ }

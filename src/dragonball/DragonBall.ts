@@ -33,7 +33,8 @@ export class DragonBall extends AnimesGeneric<
     );
   }
 
-  protected async toJson(keys: OptionDragonBall[]): Promise<DragonBallInfo> {
+  protected async _toJson(keys: OptionDragonBall[]): Promise<DragonBallInfo> {
+    if (!keys || !Array.isArray(keys) || !keys.length) return {};
     const dragon_ball: DragonBallInfo = {};
     const promises = await keys.map(async value => {
       switch (value) {
@@ -117,7 +118,7 @@ export class DragonBall extends AnimesGeneric<
 
   private _alias(): string[] {
     const alias: string[] = [];
-    if (this._lang === 'pt-br') {
+    if (this._lang === 'es') {
       alias.push(...getListElement(this._document, this._tags.alias, true));
     } else {
       alias.push(...getAndRemoveTagBr(this._document, this._tags.alias));

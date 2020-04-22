@@ -1,0 +1,181 @@
+{
+    "name":"Vegeta",
+    "description":"Vegeta (ベジータ, Bejīta), more specifically Vegeta IV (ベジータ四世, Bejīta Yonsei), recognized as Prince Vegeta (ベジータ王子, Bejīta Ōji) is the prince of the fallen Saiyan race and one of the major characters of the Dragon Ball series.",
+    "sex":"Male",
+    "birthday":"Age 732",
+    "height":"164 cm (5'5\")",
+    "weight":"56 kg (123 lbs)",
+    "alias":[
+       "Vegeta IV",
+       "Vegita",
+       "Prince of all Saiyans"
+    ],
+    "race":[
+       "Saiyan",
+       "Tuffle"
+    ],
+    "death":[
+       "December 24, Age 762",
+       "May 7, Age 774",
+       "June, Age 779",
+       "Age 801",
+       "Age 889"
+    ],
+    "address":[
+       "Vegeta's Palace",
+       "WST 3338926 K."
+    ],
+    "occupation":[
+       "Prince of Planet Vegeta (formerly)",
+       "High-class Warrior",
+       "Galactic Patrolman"
+    ],
+    "relatives":[
+       "King Vegeta",
+       "Dr. Brief",
+       "Panchy",
+       "Tarble",
+       "Bulma",
+       "Tights",
+       "Gure",
+       "Trunks",
+       "Future Trunks",
+       "Bulla",
+       "Bulma Leigh",
+       "Vegeta Jr."
+    ],
+    "photo":[
+       {
+          "name":"Anime",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/25/Vegeta_DBZ_Ep_222_002.png/revision/latest/scale-to-width-down/217?cb=20191124215151"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/a1/Vegeta-manga.jpg/revision/latest/scale-to-width-down/220?cb=20170822020417"
+       }
+    ],
+    "appears":[
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/78/Z_Ball.svg/revision/latest/scale-to-width-down/20?cb=20070930122056",
+          "name":"Dragon Ball Z"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/b6/DBGT_Logo.svg/revision/latest/scale-to-width-down/35?cb=20070930125208",
+          "name":"Dragon Ball GT"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f4/DBS_logo.png/revision/latest/scale-to-width-down/20?cb=20160703051704",
+          "name":"Dragon Ball Super"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/c/cb/Super_Dragon_Ball_Heroes_Logo.png/revision/latest/scale-to-width-down/35?cb=20200217224539",
+          "name":"Super Dragon Ball Heroes"
+       }
+    ],
+    "transformation":[
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/5f/OozaruVegetaGreatApe.png/revision/latest/scale-to-width-down/180?cb=20111008103224",
+          "name":"Vegeta as a Great Ape"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/25/VegetaSSIvsSemiPerfectCell.png/revision/latest/scale-to-width-down/180?cb=20100519115559",
+          "name":"Vegeta as a Super Saiyan"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/4a/VegetaAscendedSuperSaiyanEp155.png/revision/latest/scale-to-width-down/180?cb=20100716111251",
+          "name":"Vegeta as a Super Saiyan Second Grade"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/94/SSJ2VegetaVersusKidBuu.png/revision/latest/scale-to-width-down/180?cb=20110807054928",
+          "name":"Vegeta as a Super Saiyan 2"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/ac/VegetaMajinStateNV.png/revision/latest/scale-to-width-down/180?cb=20100513154132",
+          "name":"Demon Prince Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/52/Furious_Mutation.png/revision/latest/scale-to-width-down/180?cb=20190731203322",
+          "name":"Super Saiyan 2 Vegeta (Enraged)"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/53/Group.jpg/revision/latest/scale-to-width-down/180?cb=20150809225233",
+          "name":"Vegeta as a Super Saiyan 3"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/0d/SSG_Vegeta_Bro.png/revision/latest/scale-to-width-down/180?cb=20181130170530",
+          "name":"Super Saiyan God Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/a5/SbG1212.JPG/revision/latest/scale-to-width-down/180?cb=20151204011133",
+          "name":"Vegeta as a God-like Saiyan"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/f/f4/Tumblr_o5620vTxUm1tpbqw5o3_500.png/revision/latest/scale-to-width-down/180?cb=20161107212214",
+          "name":"Vegeta as a Super Saiyan Blue"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/bc/Perfect_Bluegeta.png/revision/latest/scale-to-width-down/180?cb=20181130170839",
+          "name":"Vegeta's Perfected Super Saiyan Blue"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/7/7d/SSGSSEvo_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20180401104315",
+          "name":"Vegeta's Super Saiyan God SS Evolved form in the anime"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/0/08/SSGSSE_Vegeta_manga_color.png/revision/latest/scale-to-width-down/180?cb=20190404223057",
+          "name":"Vegeta's Super Saiyan God SS Evolved in the manga"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/e/e8/Baby_Vegeta_base.png/revision/latest/scale-to-width-down/180?cb=20160419032318",
+          "name":"Baby Vegeta in his base form"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/9a/VegetaInGT5.jpg/revision/latest/scale-to-width-down/180?cb=20090412220052",
+          "name":"Vegeta as a Super Tuffleized Saiyan"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/3/38/Baby_DBGT_Ep_29_001.png/revision/latest/scale-to-width-down/180?cb=20170916025612",
+          "name":"Baby Vegeta in Strongest Form 1"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/26/Super_Oren.png/revision/latest/scale-to-width-down/180?cb=20190307223836",
+          "name":"Oren Vegeta in Strongest Form 1"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/1/10/BitG_-_Super_Baby_Vegeta_22.png/revision/latest/scale-to-width-down/180?cb=20131204221625",
+          "name":"Vegeta in Strongest Form 2"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/4/43/GoldenApeBaby.Ep.38.png/revision/latest/scale-to-width-down/180?cb=20120503162700",
+          "name":"Golden Great Ape Vegeta while possessed by Baby"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/2/28/A2-1-.jpg/revision/latest/scale-to-width-down/180?cb=20121120073426",
+          "name":"Vegeta as a Golden Great Ape"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/d/de/VegetaSS4DBGT01...png/revision/latest/scale-to-width-down/180?cb=20100327142037",
+          "name":"Vegeta as a Super Saiyan 4"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/9/99/Giant_Vegeta_VRVS.png/revision/latest/scale-to-width-down/80?cb=20181111182347",
+          "name":"Giant Vegeta"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/1/12/%24_57-0.JPG/revision/latest/scale-to-width-down/180?cb=20150620235043",
+          "name":"Destruction Prince Super Saiyan 3 Vegeta card for Dragon Ball Heroes"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/5/58/Janemba_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20141204115451",
+          "name":"Vegeta under Janemba's control"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/b/ba/Spirit_Bomb_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20140108132554",
+          "name":"Vegeta as a Spirit Bomb Super Saiyan"
+       },
+       {
+          "icon":"https://vignette.wikia.nocookie.net/dragonball/images/a/af/Villainous_Vegeta.png/revision/latest/scale-to-width-down/180?cb=20150131133014",
+          "name":"Vegeta transformed by dark magic"
+       }
+    ]
+ }
