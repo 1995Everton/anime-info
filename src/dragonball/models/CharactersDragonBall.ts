@@ -1,457 +1,504 @@
 export type CharactersDragonBall =
   | 'Abo'
+  | 'Agu'
+  | 'Ahms'
   | 'Aka'
-  | 'Alexi'
+  | 'Akina'
+  | 'Amepai'
   | 'Amond'
-  | 'Anat'
-  | 'Androide_19'
+  | 'Anato'
+  | 'Annin'
   | 'Arak'
-  | 'Magetta'
+  | 'Arale_Norimaki'
   | 'Awamo'
   | 'Babidi'
   | 'Baby'
-  | 'BactéRia'
+  | 'Bardock'
+  | 'Barry_Kahn'
   | 'Basil'
+  | 'Beat'
+  | 'Bee'
+  | 'Beerus'
+  | 'Beets'
   | 'Bergamo'
-  | 'Bills'
+  | 'Berry'
+  | 'Bibidi'
+  | 'Bibra'
+  | 'Bido'
   | 'Bio-Broly'
   | 'Blueberry'
   | 'Bojack'
-  | 'Bongo'
-  | 'Bora'
+  | 'Bonyu'
   | 'Botamo'
-  | 'Boter'
+  | 'Broly'
+  | 'Broly_(DBS)'
   | 'Bubbles'
-  | 'Burdwell'
+  | 'Bujin'
+  | 'Bulma'
+  | 'Bulma_Leigh'
   | 'Buyon'
+  | 'C-6'
+  | 'Cabira'
   | 'Cacao'
-  | 'Campari'
+  | 'Cargo'
+  | 'Caroni'
+  | 'Catopesra'
   | 'Caulifla'
+  | 'Caway'
   | 'Cell'
+  | 'Cell_Jr.'
+  | 'Chamel'
   | 'Champa'
-  | 'Chaos'
   | 'Chappil'
-  | 'Chapu'
-  | 'Chapuchai'
-  | 'Chibi'
-  | 'Chii_Shenlong'
-  | 'Cognac'
-  | 'Confrei'
-  | 'Coola'
-  | 'Coronel_Silver'
-  | 'Cukatail'
-  | 'Cynthia'
+  | 'Chilled'
+  | 'Chocolay'
+  | 'Chronoa'
+  | 'Churai'
+  | 'Cocoa_Amaguri'
+  | 'Cocotte'
+  | 'Cranberry'
+  | 'Cumber'
   | 'Dabura'
-  | 'Demigra'
+  | 'Daiz'
+  | 'Den-Goku'
   | 'Dende'
-  | 'Dock'
   | 'Dodoria'
-  | 'Dolltaki'
-  | 'Doma'
-  | 'Don_Kia'
-  | 'Dorodabo'
-  | 'Dyspo'
-  | 'Ea'
-  | 'Enma_Daioh'
-  | 'Erasa'
+  | 'Dr._Brief'
+  | 'Dr._Gero'
+  | 'Dr._Kochin'
+  | 'Dr._Mashirito'
+  | 'Dr._Myuu'
+  | 'Dr._Rota'
+  | 'Esca'
+  | 'Fin'
+  | 'Frost'
+  | 'Froze'
   | 'Fu'
   | 'Fuwa'
-  | 'Gale'
+  | 'Ganos'
+  | 'Garana'
+  | 'Garlic'
+  | 'Garlic_Jr.'
+  | 'Gatchan'
   | 'General_Blue'
+  | 'General_Bon'
   | 'General_Copper'
+  | 'General_Rilldo'
   | 'General_White'
-  | 'Gerinovich'
-  | 'Ghastel'
+  | 'Genome'
   | 'Gicchin'
-  | 'Gill'
-  | 'Ginger'
-  | 'Ginyu'
+  | 'Gine'
   | 'Giran'
+  | 'Gogeta'
   | 'Gohan'
   | 'Goku'
+  | 'Goku_Black'
   | 'Goku_Jr.'
   | 'Goten'
-  | 'Gola'
+  | 'Gotenks'
+  | 'Gowasu'
   | 'Goz'
+  | 'Gravy'
   | 'Gregory'
-  | 'Gurdo'
-  | 'Gyoshu'
-  | 'Hasky'
-  | 'Hildegarn'
-  | 'Hissop'
+  | 'Gryll'
+  | 'Gure'
+  | 'Haru_Haru'
+  | 'Hatchiyack'
   | 'Hit'
-  | 'Hitto'
   | 'Hoi'
   | 'Hop'
-  | 'Icarus'
+  | 'Hope!'
+  | 'Idasa'
+  | 'Ipana'
+  | 'Irico'
+  | 'Iru'
   | 'Iwan'
-  | 'Javeleta'
-  | 'Jerez'
-  | 'Jewel'
+  | 'Jaco'
+  | 'Janemba'
+  | 'Jimizu'
   | 'Jiren'
-  | 'Johnny'
-  | 'KNsi'
+  | 'Jiya'
   | 'Kado'
   | 'Kale'
-  | 'Kasdan'
-  | 'Katattsu'
-  | 'Kefla'
-  | 'Kettol'
-  | 'Khai'
+  | 'Kettle'
   | 'Kibito'
-  | 'Kibitoshin'
-  | 'Kid_Boo'
-  | 'Killer'
-  | 'Kokotto'
+  | 'Kikono'
+  | 'Koitsukai'
+  | 'Konkichi'
+  | 'Korn'
   | 'Krang'
-  | 'Kurilien'
+  | 'Kuriza'
   | 'Kuru'
-  | 'Kyabe'
-  | 'Lakasei'
-  | 'Lavender'
-  | 'Leena'
-  | 'Li_Shenlong'
-  | 'Lime'
-  | 'Lord_Jaguar'
-  | 'Lord_Slug'
-  | 'Lord_Yao'
+  | 'Kusu'
+  | 'Leek'
+  | 'Lemlia'
+  | 'Lemo'
+  | 'Leon'
   | 'Lucifer'
-  | 'Ludo'
-  | 'Magetta'
+  | 'Mai'
+  | 'Maji-Kayo'
+  | 'Majora'
   | 'Malaka'
-  | 'Maloja'
-  | 'Maraikoh'
+  | 'Marcarita'
   | 'Maron'
-  | 'Medamatcha'
-  | 'Melee'
-  | 'Meta-Coola'
+  | 'Marron'
+  | 'Mecha_Goku'
+  | 'Mechikabura'
+  | 'Merus'
   | 'Mez'
   | 'Mighty_Mask'
-  | 'Migoren'
+  | 'Miguel'
+  | 'Minotia'
   | 'Mira'
   | 'Moah'
-  | 'Mojito'
-  | 'Mule'
+  | 'Monaka'
+  | 'Monna'
+  | 'Montgomery'
+  | 'Moori'
+  | 'Moro'
+  | 'Mr._Poko_Poko'
+  | 'Mr._Satan'
+  | 'Murichim'
   | 'Nam'
-  | 'Nao'
-  | 'Neiz'
-  | 'Nicky'
-  | 'Noppo'
-  | 'O_Ditador'
-  | 'Ogma'
-  | 'Olive'
+  | 'Namole'
+  | 'Napapa'
+  | 'Nappa'
+  | 'Napple'
+  | 'Naraku'
+  | 'Narirama'
+  | 'Natz'
+  | 'Nico'
+  | 'Nigrissi'
+  | 'Nink'
+  | 'Obni'
+  | 'Onio'
+  | 'Oolong'
   | 'Oregano'
-  | 'Pamput'
-  | 'Panbukin'
-  | 'Papoi'
-  | 'Paragas'
-  | 'Pasta'
-  | 'Peru'
+  | 'Orlen'
+  | 'Paella'
+  | 'Pan'
+  | 'Paparoni'
+  | 'Percel'
   | 'Peruka'
   | 'Piano'
   | 'Piccolo'
-  | 'Pilaf'
+  | 'Pilina'
+  | 'Pinich'
   | 'Planthorr'
-  | 'Pochawompa'
-  | 'Poperu'
   | 'Porunga'
-  | 'Pual'
+  | 'Potage'
+  | 'Prum'
   | 'Pui_Pui'
-  | 'Punta'
+  | 'Putine'
+  | 'Pybara'
   | 'Quitela'
-  | 'Rainha_Kress'
-  | 'Ranfan'
-  | 'Rasin'
+  | 'Rabanra'
+  | 'Raditz'
   | 'Raspberry'
-  | 'Renso'
-  | 'Rikum'
-  | 'Roh'
   | 'Roselle'
-  | 'Ryan_Shenlong'
-  | 'Ryuu_Shenlong'
-  | 'Sansho'
+  | 'Ruhna'
+  | 'Salaga'
   | 'Saonel'
-  | 'Sarah'
-  | 'Sargento_MetáLico'
+  | 'Sapa'
   | 'Sarta'
-  | 'Seripa'
+  | 'Sealas'
+  | 'Senbei_Norimaki'
+  | 'Shallot'
   | 'Sharpner'
-  | 'Sheela'
-  | 'Shenlong'
-  | 'Shenlong_Negro'
-  | 'Sherman_Priest'
+  | 'Shin'
   | 'Shisami'
-  | 'Shula'
+  | 'Shroom'
+  | 'Shu'
+  | 'Shun_Shun'
+  | 'Sidra'
   | 'Sorbet'
   | 'Sorrel'
   | 'Sour'
   | 'Spopovich'
-  | 'Sr._Borbonne'
-  | 'Sr._Lao'
-  | 'Suno'
-  | 'Majin_Boo'
-  | 'Kaioh_do_Norte'
-  | 'Kaioh_do_Oeste'
-  | 'Kaioh_do_Sul'
+  | 'Super_17'
   | 'Tagoma'
-  | 'Tama'
+  | 'Taino'
   | 'Tapion'
-  | 'Tapkar'
-  | 'Tappa'
-  | 'Tenshinhan'
+  | 'Tarble'
+  | 'Tekka'
   | 'Tights'
-  | 'Toki_Toki'
-  | 'Toma'
-  | 'Toppo'
   | 'Torbie'
-  | 'Toteppo'
   | 'Towa'
   | 'Trunks'
   | 'Tsuno'
-  | 'Turles'
-  | 'Ultimate_Shenlong'
-  | 'Uu_Shenlong'
+  | 'Tupper'
+  | 'Upa'
   | 'Vados'
-  | 'Van_Zant'
+  | 'Valese'
   | 'Vegeta'
   | 'Vegeta_Jr.'
-  | 'Vegetto'
-  | 'Vodka'
-  | 'Vuon'
+  | 'Videl'
+  | 'Watagash'
   | 'Whis'
   | 'Yajirobe'
   | 'Yakon'
-  | 'Yamu'
-  | 'Yuzukar'
-  | 'Zamasu_Gattai'
+  | 'Yamcha'
+  | 'Yamoshi'
+  | 'Yetti'
+  | 'Zahha'
+  | 'Zalama'
+  | 'Zamasu'
   | 'Zangya'
   | 'Zarbon'
-  | 'Zoire'
-  | 'Zoonama'
-  | 'Zorn';
+  | 'Zarbuto'
+  | 'Zaripai'
+  | 'Zirloin'
+  | 'Zuno';
 
 export const charactersDragonBall: CharactersDragonBall[] = [
   'Abo',
+  'Agu',
+  'Ahms',
   'Aka',
-  'Alexi',
+  'Akina',
+  'Amepai',
   'Amond',
-  'Anat',
-  'Androide_19',
+  'Anato',
+  'Annin',
   'Arak',
+  'Arale_Norimaki',
   'Awamo',
   'Babidi',
   'Baby',
-  'BactéRia',
+  'Bardock',
+  'Barry_Kahn',
   'Basil',
+  'Beat',
+  'Bee',
+  'Beerus',
+  'Beets',
   'Bergamo',
-  'Bills',
+  'Berry',
+  'Bibidi',
+  'Bibra',
+  'Bido',
   'Bio-Broly',
   'Blueberry',
   'Bojack',
-  'Bongo',
-  'Bora',
+  'Bonyu',
   'Botamo',
-  'Boter',
+  'Broly',
+  'Broly_(DBS)',
   'Bubbles',
-  'Burdwell',
+  'Bujin',
+  'Bulma',
+  'Bulma_Leigh',
   'Buyon',
+  'C-6',
+  'Cabira',
   'Cacao',
-  'Campari',
+  'Cargo',
+  'Caroni',
+  'Catopesra',
   'Caulifla',
+  'Caway',
+  'Cell',
+  'Cell_Jr.',
+  'Chamel',
   'Champa',
-  'Chaos',
   'Chappil',
-  'Chapu',
-  'Chapuchai',
-  'Chibi',
-  'Chii_Shenlong',
-  'Cognac',
-  'Confrei',
-  'Coola',
-  'Coronel_Silver',
-  'Cukatail',
-  'Cynthia',
+  'Chilled',
+  'Chocolay',
+  'Chronoa',
+  'Churai',
+  'Cocoa_Amaguri',
+  'Cocotte',
+  'Cranberry',
+  'Cumber',
   'Dabura',
-  'Demigra',
+  'Daiz',
+  'Den-Goku',
   'Dende',
   'Dodoria',
-  'Dolltaki',
-  'Doma',
-  'Don_Kia',
-  'Dorodabo',
-  'Dyspo',
-  'Ea',
-  'Enma_Daioh',
-  'Erasa',
+  'Dr._Brief',
+  'Dr._Gero',
+  'Dr._Kochin',
+  'Dr._Mashirito',
+  'Dr._Myuu',
+  'Dr._Rota',
+  'Esca',
+  'Fin',
+  'Frost',
+  'Froze',
   'Fu',
   'Fuwa',
-  'Gale',
+  'Ganos',
+  'Garana',
+  'Garlic',
+  'Garlic_Jr.',
+  'Gatchan',
   'General_Blue',
+  'General_Bon',
   'General_Copper',
+  'General_Rilldo',
   'General_White',
-  'Gerinovich',
-  'Ghastel',
+  'Genome',
   'Gicchin',
-  'Gill',
-  'Ginger',
-  'Ginyu',
+  'Gine',
   'Giran',
+  'Gogeta',
+  'Gohan',
+  'Goku',
+  'Goku_Black',
   'Goku_Jr.',
-  'Gola',
+  'Goten',
+  'Gotenks',
+  'Gowasu',
   'Goz',
+  'Gravy',
   'Gregory',
-  'Gurdo',
-  'Gyoshu',
-  'Hasky',
-  'Hildegarn',
-  'Hissop',
+  'Gryll',
+  'Gure',
+  'Haru_Haru',
+  'Hatchiyack',
   'Hit',
-  'Hitto',
   'Hoi',
   'Hop',
-  'Icarus',
+  'Hope!',
+  'Idasa',
+  'Ipana',
+  'Irico',
+  'Iru',
   'Iwan',
-  'Javeleta',
-  'Jerez',
-  'Jewel',
+  'Jaco',
+  'Janemba',
+  'Jimizu',
   'Jiren',
-  'Johnny',
-  'KNsi',
+  'Jiya',
   'Kado',
   'Kale',
-  'Kasdan',
-  'Katattsu',
-  'Kefla',
-  'Kettol',
-  'Khai',
+  'Kettle',
   'Kibito',
-  'Kibitoshin',
-  'Kid_Boo',
-  'Killer',
-  'Kokotto',
+  'Kikono',
+  'Koitsukai',
+  'Konkichi',
+  'Korn',
   'Krang',
-  'Kurilien',
+  'Kuriza',
   'Kuru',
-  'Kyabe',
-  'Lakasei',
-  'Lavender',
-  'Leena',
-  'Li_Shenlong',
-  'Lime',
-  'Lord_Jaguar',
-  'Lord_Slug',
-  'Lord_Yao',
+  'Kusu',
+  'Leek',
+  'Lemlia',
+  'Lemo',
+  'Leon',
   'Lucifer',
-  'Ludo',
-  'Magetta',
+  'Mai',
+  'Maji-Kayo',
+  'Majora',
   'Malaka',
-  'Maloja',
-  'Maraikoh',
+  'Marcarita',
   'Maron',
-  'Medamatcha',
-  'Melee',
-  'Meta-Coola',
+  'Marron',
+  'Mecha_Goku',
+  'Mechikabura',
+  'Merus',
   'Mez',
   'Mighty_Mask',
-  'Migoren',
+  'Miguel',
+  'Minotia',
   'Mira',
   'Moah',
-  'Mojito',
-  'Mule',
+  'Monaka',
+  'Monna',
+  'Montgomery',
+  'Moori',
+  'Moro',
+  'Mr._Poko_Poko',
+  'Mr._Satan',
+  'Murichim',
   'Nam',
-  'Nao',
-  'Neiz',
-  'Nicky',
-  'Noppo',
-  'O_Ditador',
-  'Ogma',
-  'Olive',
+  'Namole',
+  'Napapa',
+  'Nappa',
+  'Napple',
+  'Naraku',
+  'Narirama',
+  'Natz',
+  'Nico',
+  'Nigrissi',
+  'Nink',
+  'Obni',
+  'Onio',
+  'Oolong',
   'Oregano',
-  'Pamput',
-  'Panbukin',
-  'Papoi',
-  'Paragas',
-  'Pasta',
-  'Peru',
+  'Orlen',
+  'Paella',
+  'Pan',
+  'Paparoni',
+  'Percel',
   'Peruka',
   'Piano',
   'Piccolo',
-  'Pilaf',
+  'Pilina',
+  'Pinich',
   'Planthorr',
-  'Pochawompa',
-  'Poperu',
   'Porunga',
-  'Pual',
+  'Potage',
+  'Prum',
   'Pui_Pui',
-  'Punta',
+  'Putine',
+  'Pybara',
   'Quitela',
-  'Rainha_Kress',
-  'Ranfan',
-  'Rasin',
+  'Rabanra',
+  'Raditz',
   'Raspberry',
-  'Renso',
-  'Rikum',
-  'Roh',
   'Roselle',
-  'Ryan_Shenlong',
-  'Ryuu_Shenlong',
-  'Sansho',
+  'Ruhna',
+  'Salaga',
   'Saonel',
-  'Sarah',
-  'Sargento_MetáLico',
+  'Sapa',
   'Sarta',
-  'Seripa',
+  'Sealas',
+  'Senbei_Norimaki',
+  'Shallot',
   'Sharpner',
-  'Sheela',
-  'Shenlong',
-  'Shenlong_Negro',
-  'Sherman_Priest',
+  'Shin',
   'Shisami',
-  'Shula',
+  'Shroom',
+  'Shu',
+  'Shun_Shun',
+  'Sidra',
   'Sorbet',
   'Sorrel',
   'Sour',
   'Spopovich',
-  'Sr._Borbonne',
-  'Sr._Lao',
-  'Suno',
-  'Majin_Boo',
-  'Kaioh_do_Norte',
-  'Kaioh_do_Oeste',
-  'Kaioh_do_Sul',
+  'Super_17',
   'Tagoma',
-  'Tama',
+  'Taino',
   'Tapion',
-  'Tapkar',
-  'Tappa',
-  'Tenshinhan',
+  'Tarble',
+  'Tekka',
   'Tights',
-  'Toki_Toki',
-  'Toma',
-  'Toppo',
   'Torbie',
-  'Toteppo',
   'Towa',
   'Trunks',
   'Tsuno',
-  'Turles',
-  'Ultimate_Shenlong',
-  'Uu_Shenlong',
+  'Tupper',
+  'Upa',
   'Vados',
-  'Van_Zant',
+  'Valese',
+  'Vegeta',
   'Vegeta_Jr.',
-  'Vegetto',
-  'Vodka',
-  'Vuon',
+  'Videl',
+  'Watagash',
   'Whis',
   'Yajirobe',
   'Yakon',
-  'Yamu',
-  'Yuzukar',
-  'Zamasu_Gattai',
+  'Yamcha',
+  'Yamoshi',
+  'Yetti',
+  'Zahha',
+  'Zalama',
+  'Zamasu',
   'Zangya',
   'Zarbon',
-  'Zoire',
-  'Zoonama',
-  'Zorn'
+  'Zarbuto',
+  'Zaripai',
+  'Zirloin',
+  'Zuno'
 ];

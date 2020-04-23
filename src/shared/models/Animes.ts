@@ -14,8 +14,12 @@ export abstract class AnimesGeneric<C, I, O, T> {
     protected _document: Document = new JSDOM().window.document
   ) {}
 
-  public getListCharacters(): C[] {
-    return this._all_characters;
+  public getListCharacters(search: string = ''): C[] {
+    const regExp = new RegExp(search, 'i');
+    return this._all_characters.filter(value => {
+      const name = (value as unknown) as string;
+      return regExp.test(name);
+    });
   }
 
   public async getCharacter(name: C, option: OptionFields<O> = {}): Promise<I> {

@@ -20,6 +20,24 @@
   padding: 12px;
   box-sizing: border-box">🙅‍♂️ Atenção !!! Essa biblioteca foi criada apenas para fins didáticos e a propriedade intelectual das informações pertence a seus respectivos criadores.</p>
 
+<table>
+  <tr>
+    <th colspan="2">Possibilidade de buscar de personagem por anime</th>
+  </tr>
+  <tr>
+    <th style="text-align: center">Anime</th>
+    <th style="text-align: center">Quantidade</th>
+  </tr>
+  <tr>
+    <td>Naruto</td>
+    <td style="text-align: center">+ 994</td>
+  </tr>
+  <tr>
+    <td>DragonBall Z</td>
+    <td style="text-align: center">+ 250</td>
+  </tr>
+</table>
+
 
 ## ✨ Demo
 
@@ -165,6 +183,24 @@ const naruto = new Naruto({ lang : "es" });
 - Retorna uma lista com os nomes dos personagens
 
  `getListCharacters(): Array<string>;`
+
+  <table>
+  <tr>
+    <th><span style="font-weight:600;font-style:normal">Opção</span></th>
+    <th><span style="font-weight:600;font-style:normal">Type</span></th>
+    <th >Requirido</th>
+    <th><span style="font-weight:600;font-style:normal">Padrão</span></th>
+    <th><span style="font-weight:600;font-style:normal">Descrição</span></th>
+  </tr>
+  <tr>
+    <td><span style="font-weight:normal;font-style:italic">search </span></td>
+    <td><span style="font-weight:400;font-style:normal">String</span></td>
+    <td>false</td>
+    <td></td>
+    <td>Filtra o nome dos personagens, retorna todos se não informado</td>
+  </tr>
+</table>
+
 
 ### 💯 Suporte ao TypeScript
 

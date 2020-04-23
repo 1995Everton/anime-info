@@ -33,8 +33,9 @@ export class DragonBall extends AnimesGeneric<
     );
   }
 
-  protected async _toJson(keys: OptionDragonBall[]): Promise<DragonBallInfo> {
-    if (!keys || !Array.isArray(keys) || !keys.length) return {};
+  protected async _toJson(
+    keys: OptionDragonBall[] = []
+  ): Promise<DragonBallInfo> {
     const dragon_ball: DragonBallInfo = {};
     const promises = await keys.map(async value => {
       switch (value) {
