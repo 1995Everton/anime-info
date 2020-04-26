@@ -1,4 +1,4 @@
-const{ Naruto, DragonBall } = require("../dist")
+const{ Naruto, DragonBall, OnePunchMan } = require("../dist")
 
 async function getCharacterNaruto(){
     const naruto = new Naruto({
@@ -16,5 +16,16 @@ async function getCharacterDragonBall(){
     console.log(character);
 }
 
-getCharacterNaruto();
+async function getCharacterOnePunchMan() {
+    const one_punch_man = new OnePunchMan({
+      lang: 'es'
+    });
+    const character = await one_punch_man.getCharacter('Saitama', {
+      exclude: ['gallery']
+    });
+    console.log(character);
+  }
+
+// getCharacterNaruto();
 // getCharacterDragonBall();
+getCharacterOnePunchMan()

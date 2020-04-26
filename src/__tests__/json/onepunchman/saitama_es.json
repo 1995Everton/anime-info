@@ -1,0 +1,56 @@
+{
+    "name":"Saitama",
+    "photo":[
+       {
+          "name":"Anime",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/c/c0/Anime_-_Saitama.jpg/revision/latest/scale-to-width-down/350?cb=20200308230733&path-prefix=es"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/4/48/Manga_-_Saitama.png/revision/latest/scale-to-width-down/350?cb=20200214124337&path-prefix=es"
+       },
+       {
+          "name":"Webcómic",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/7/74/SMWc.png/revision/latest?cb=20160319201128&path-prefix=es"
+       }
+    ],
+    "alias":[
+       "Calvo con Capa (ハゲマント, Hagemanto)",
+       "Maestro  (先生, Sensei) (por Genos)",
+       "Charanko (チャランコ, Charanko) (para Súper Lucha)"
+    ],
+    "race":[
+       "Humano"
+    ],
+    "sex":"Masculino",
+    "age":"25",
+    "status":"Vivo",
+    "weight":"70 kg (154 lbs.)",
+    "height":"175 cm (5'9\")",
+    "location":[
+       "Ciudad-Z"
+    ],
+    "abilities":[
+       "Fuerza Sobrehumana",
+       "Velocidad Increíble",
+       "Gran Agilidad",
+       "Increíble Resistencia",
+       "Sentido de Percepción"
+    ],
+    "occupation":[
+       "Héroe"
+    ],
+    "rank":[
+       "7 (manga)",
+       "39 (webcómic)"
+    ],
+    "class":"B (manga)A (webcómic)",
+    "affiliation":[
+       "Asociación de Héroes",
+       "Grupo Saitama"
+    ],
+    "partner":[
+       "Genos (discípulo)"
+    ],
+    "description":"Saitama (サイタマ, Saitama) es el protagonista principal de One Punch-Man y el héroe más poderoso. Debido a su condición sobrehumana, Saitama se enfrenta a una crisis existencial, ya que ahora es demasiado poderoso siendo capaz de derrotar a sus oponentes de un solo golpe, por lo que sus batallas las encuentra aburridas y sin emoción."
+ }

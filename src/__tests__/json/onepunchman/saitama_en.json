@@ -1,0 +1,60 @@
+{
+    "name":"Saitama",
+    "photo":[
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/8/82/Saitama_Manga.png/revision/latest/scale-to-width-down/310?cb=20191011133740"
+       },
+       {
+          "name":"Anime",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/0/07/Saitama_serious_profile.png/revision/latest/scale-to-width-down/310?cb=20161002154538"
+       },
+       {
+          "name":"Webcomic",
+          "icon":"https://vignette.wikia.nocookie.net/onepunchman/images/6/66/Saitama_Webcomic_Profile.png/revision/latest?cb=20200406004906"
+       }
+    ],
+    "alias":[
+       "Caped Baldy/Bald Cape (ハゲマント, Hagemanto)",
+       "Master (先生, Sensei) (by Genos)",
+       "Charanko (チャランコ, Charanko) (For Super Fight)"
+    ],
+    "race":[
+       "Human"
+    ],
+    "sex":"Male",
+    "age":"25",
+    "status":"Alive",
+    "weight":"70 kg (154 lbs)",
+    "height":"175 cm (5'9\")",
+    "location":[
+       "Z-City",
+       "Z-City Ghost Town",
+       "Saitama's Apartment"
+    ],
+    "abilities":[
+       "Immeasurable Physical Prowess",
+       "Supernatural Reflexes and Senses",
+       "Invulnerability",
+       "Indomitable Will"
+    ],
+    "occupation":[
+       "Hero",
+       "Teacher"
+    ],
+    "rank":[
+       "C-Class: Rank 342 (National Superhero Registry Arc - Giant Meteor Arc)",
+       " C-Class: Rank 5 (Giant Meteor Arc - Sea Monster Arc)",
+       "B-Class: Rank 7 (Current) ",
+       "A-Class: Rank 39 (Psychic Sisters Arc - current webcomic)"
+    ],
+    "class":"A",
+    "affiliation":[
+       "Hero Association",
+       "Saitama Group"
+    ],
+    "partner":[
+       "Genos (Disciple)"
+    ],
+    "description":"Saitama (サイタマ, Saitama) is the main protagonist of One-Punch Man and the most powerful being to exist in the series. Saitama faces a self-imposed existential crisis, as he is now too powerful to gain any thrill from battle."
+ }

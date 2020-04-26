@@ -1,7 +1,7 @@
 
 <h1 align="center">Bem Vindo ao anime-info 👋</h1>
 <p align="left">
-  <img src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000" />
     <img src="https://img.shields.io/badge/node->=10.0.0-blue.svg?cacheSeconds=2592000" />
      <img src="https://img.shields.io/badge/npm->=5.5.0-blue.svg?cacheSeconds=2592000" />
      <img src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?cacheSeconds=2592000" />
@@ -35,6 +35,10 @@
   <tr>
     <td>DragonBall Z</td>
     <td style="text-align: center">+ 250</td>
+  </tr>
+  <tr>
+    <td>One Punch Man</td>
+    <td style="text-align: center">+ 135</td>
   </tr>
 </table>
 
@@ -112,8 +116,9 @@ const naruto = new Naruto({ lang : "es" });
   <tr>
     <th class="tg-c3ow" style="text-align: center">Linguagens</th>
     <th class="tg-baqh" style="text-align: center">lang</th>
-	<th class="tg-baqh" style="text-align: center">Naruto</th>
-	<th class="tg-baqh" style="text-align: center">Dragon Ball Z</th>
+    <th class="tg-baqh" style="text-align: center">Naruto</th>
+    <th class="tg-baqh" style="text-align: center">Dragon Ball Z</th>
+    <th class="tg-baqh" style="text-align: center">One Punch Man</th>
   </tr>
   <tr>
     <td class="tg-c3ow"><a href="https://www.fandom.com/explore-pt-br?uselang=pt-br">
@@ -121,17 +126,19 @@ const naruto = new Naruto({ lang : "es" });
 	</a>
 </td>
     <td class="tg-baqh"  style="text-align: center">pr-br</td>
-	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
-	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
   </tr>
   <tr>
         <td class="tg-c3ow"><a href="https://www.fandom.com/explore-es?uselang=es">
 		Espanol
 		</a>
-        </td>
-    <td class="tg-baqh" style="text-align: center">es</td>
-	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
-	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+  </td>
+  <td class="tg-baqh" style="text-align: center">es</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
   <tr>
     <td class="tg-c3ow">
@@ -139,8 +146,9 @@ const naruto = new Naruto({ lang : "es" });
 		</a>
 	</td>
     <td class="tg-baqh"  style="text-align: center">en</td>
-	<td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
-	<td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
 </table>
 
@@ -182,7 +190,7 @@ const naruto = new Naruto({ lang : "es" });
 
 - Retorna uma lista com os nomes dos personagens
 
- `getListCharacters(): Array<string>;`
+ `getListCharacters(search): Array<string>;`
 
   <table>
   <tr>

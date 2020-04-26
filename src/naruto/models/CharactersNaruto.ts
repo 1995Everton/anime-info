@@ -209,6 +209,7 @@ export type NarutoCharacters =
   | 'Ginkaku'
   | 'Gitai'
   | 'Goji'
+  | 'Gojō'
   | 'Gonbee'
   | 'Gongorō_Kamakura'
   | 'Goshiki'
@@ -1205,6 +1206,7 @@ export const narutoCharacters: NarutoCharacters[] = [
   'Ginkaku',
   'Gitai',
   'Goji',
+  'Gojō',
   'Gonbee',
   'Gongorō_Kamakura',
   'Goshiki',
