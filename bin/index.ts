@@ -1,4 +1,4 @@
-import { Naruto, DragonBall, OnePunchMan } from '../src';
+import { Naruto, DragonBall, OnePunchMan, HunterXHunter } from '../src';
 
 async function getCharacterNaruto() {
   const naruto = new Naruto({
@@ -18,7 +18,7 @@ async function getCharacterDragonBall() {
 
 async function getCharacterOnePunchMan() {
   const one_punch_man = new OnePunchMan({
-    lang: 'es'
+    lang: 'en'
   });
   const character = await one_punch_man.getCharacter('Saitama', {
     exclude: ['gallery']
@@ -26,6 +26,15 @@ async function getCharacterOnePunchMan() {
   console.log(character);
 }
 
+async function getCharacterHunterXHunter() {
+  const hunter_x_hunter = new HunterXHunter({
+    lang: 'es'
+  });
+  const character = await hunter_x_hunter.getCharacter('Kurapika');
+  console.log(character);
+}
+
 // getCharacterNaruto();
 // getCharacterDragonBall();
-getCharacterOnePunchMan();
+// getCharacterOnePunchMan();
+getCharacterHunterXHunter();

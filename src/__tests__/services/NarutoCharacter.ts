@@ -19,8 +19,8 @@ const pages: Pages[] = [
     paginate: [
       '',
       '?from=Dokku',
-      '?from=Hokushin',
-      '?from=Koji+Kashin',
+      '?from=Hohozuki',
+      '?from=Koharu+Utatane',
       '?from=Namida+Suzumeno',
       '?from=Shikaku+Nara',
       '?from=Tōka+Senju'
@@ -40,6 +40,10 @@ class NarutoCharacter extends CharacterDom {
     const names = spanish.filter(value => portuguese.indexOf(value) >= 0);
 
     return names.sort();
+  }
+
+  protected customSearch(): string[] {
+    return [];
   }
 }
 

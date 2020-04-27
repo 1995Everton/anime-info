@@ -128,8 +128,7 @@ export class OnePunchMan extends AnimesGeneric<
         if (a < b || a === 'S') return 1;
         return 0;
       });
-    const latest_class = classes[classes.length - 1];
-    return latest_class ? latest_class.slice(0, 1) : null;
+    return classes[classes.length - 1];
   }
 
   private _description(): string | null {

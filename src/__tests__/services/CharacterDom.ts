@@ -18,17 +18,22 @@ export abstract class CharacterDom {
     protected document = new JSDOM().window.document
   ) {}
 
-  protected searchNames(): string[] {
+  private searchNames(): string[] {
     const list: string[] = [];
     const nameElement = this.document.querySelectorAll(
       '.category-page__members > ul > li > a'
     );
-    nameElement.forEach(el => {
-      const title = el.getAttribute('title');
-      if (title) {
-        list.push(title.replace(/\s/g, '_'));
-      }
-    });
+    if (nameElement.length > 0) {
+      nameElement.forEach(el => {
+        const title = el.getAttribute('title');
+        if (title && list.indexOf(title.replace(/\s/g, '_')) === -1) {
+          list.push(title.replace(/\s/g, '_'));
+        }
+      });
+    } else {
+      return this.customSearch();
+    }
+
     return list;
   }
 
@@ -63,4 +68,6 @@ export abstract class CharacterDom {
   }
 
   protected abstract filterNames(names_lang: NamesLang): string[];
+
+  protected abstract customSearch(): string[];
 }

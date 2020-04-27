@@ -42,32 +42,19 @@ class OnePunchManCharacter extends CharacterDom {
     return list;
   }
 
-  protected searchNames(): string[] {
+  protected customSearch(): string[] {
     const list: string[] = [];
-    const nameElementEs = this.document.querySelectorAll(
-      '.category-page__members > ul > li > a'
+    const nameElementEn = this.document.querySelectorAll(
+      '#mw-content-text > div > table table tbody > tr:nth-child(2) center > big'
     );
-    if (nameElementEs.length > 0) {
-      nameElementEs.forEach(el => {
-        const title = el.getAttribute('title');
-        if (title) {
-          list.push(title.replace(/\s/g, '_'));
-        }
-      });
+    if (nameElementEn.length > 0) {
+      list.push(...this.getTableValues(nameElementEn));
     } else {
-      const nameElementEn = this.document.querySelectorAll(
-        '#mw-content-text > div > table table tbody > tr:nth-child(2) center > big'
+      const monsterEn = this.document.querySelectorAll(
+        '.tabber > .tabbertab > table table tbody > tr:nth-child(2) center > big'
       );
-      if (nameElementEn.length > 0) {
-        list.push(...this.getTableValues(nameElementEn));
-      } else {
-        const monsterEn = this.document.querySelectorAll(
-          '.tabber > .tabbertab > table table tbody > tr:nth-child(2) center > big'
-        );
-        list.push(...this.getTableValues(monsterEn));
-      }
+      list.push(...this.getTableValues(monsterEn));
     }
-
     return list;
   }
 

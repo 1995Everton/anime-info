@@ -1,0 +1,142 @@
+{
+    "name":"Kurapika",
+    "description":"Kurapika (クラピカ, Kurapika) es uno de los cuatro protagonistas principales de la serie Hunter x Hunter. Busca venganza por su sangriento pasado. Sus ojos brillan en un hermoso y codiciado escarlata al experimentar emociones intensas. Él es el actual líder de la organización fundada por Neon Nostrade, así como un cazador de listas negras y un miembro de los zodiacos con el nombre en clave \"Rata\". Además, él es parte de la División de Inteligencia, creado en preparación para el viaje al Continente Oscuro.",
+    "height":[
+       "1.71 cm"
+    ],
+    "weight":[
+       "59kg"
+    ],
+    "alias":[
+       "クラピカ",
+       "Kurapika"
+    ],
+    "japanese_voice":[
+       "Noriko Hidaka (Piloto OVA)",
+       "Yuki Kaida (1999)",
+       "Miyuki Sawashiro (2011)"
+    ],
+    "gender":[
+       " Masculino"
+    ],
+    "photo":[
+       {
+          "name":"2011",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/2/25/Kurapika-2011.png/revision/latest/scale-to-width-down/186?cb=20130530225248&path-prefix=es"
+       },
+       {
+          "name":"1999",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/b/b1/Kurapika_1999.png/revision/latest?cb=20130530225423&path-prefix=es"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/1/1f/KurapikaManga.png/revision/latest/scale-to-width-down/164?cb=20141104021102&path-prefix=es"
+       }
+    ],
+    "age":[
+       "12 (Cuando su clan fue masacrado) (En \" Kurapika Tsuioku-Hen\") (Flashback Phantom rouge) ",
+       " 17 (Inicio) ",
+       " 19 (Actualmente)"
+    ],
+    "birthday":"4 de Abril",
+    "eye_color":[
+       "Marrón (Manga) ",
+       " Azul (1999) ",
+       "Gris (2011) ",
+       " Escarlata (Cuando se  acentúan sus emociones)"
+    ],
+    "hair_color":[
+       "Pelirrojo (Piloto OVA) ",
+       " Rubio (1999, 2011, Manga)"
+    ],
+    "blood_type":"AB",
+    "status":null,
+    "occupation":[
+       "Cazador de Listas Negras",
+       "Guardaespaldas de Neon",
+       "Zodiaco ",
+       " Guardaespaldas de Oito Hui Guo Rou y Woble Hui Guo Rou"
+    ],
+    "affiliation":[
+ 
+    ],
+    "relatives":[
+       "Mamá de Kurapika (Fallecida)Papá de Kurapika (Fallecido)"
+    ],
+    "abilities":[
+       "Holy Chain (ホーリーチェ－ン)",
+       " Chain Jail (チェーンジェイル)",
+       "Dowing Chain (ダウジングチェーン)",
+       "Judgement Chain (ジャッジメントチェーン)"
+    ],
+    "nen_type":[
+       "Materialización",
+       "Especialización (Cuando sus ojos son Escarlata)"
+    ],
+    "abilities_description":[
+       {
+          "description":"Kurapika puede invocar un arma única - cinco cadenas que se extienden desde cada dedo de su mano derecha. Algunos de los dedos fueron especialmente diseñados para tratar el pago a los miembros de la Brigada Fantasma (Genei Ryodan). Para aumentar la eficacia de sus cadenas en su contra, Kurapika coloca límites estrictos sobre el uso de sus cadenas.",
+          "name":"Cadenas Conjuradas (イズツシ, Izutsushi)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/5/5a/Kurapika_cadenas_2011.png/revision/latest/scale-to-width-down/300?cb=20140702135054&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       },
+       {
+          "description":"Cadena con punta en forma de cruz, cura heridas. Cuando Kurapika es en su estado Especialista, puede curar heridas graves, como la fractura de un brazo, en cuestión de segundos.",
+          "name":"Holy Chain - Cadena Santa (dedo pulgar)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/3/36/Kurapika_cadena_santa.png/revision/latest/scale-to-width-down/300?cb=20140702135329&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización y Potenciación"
+       },
+       {
+          "description":"Cadena que se envuelve a su objetivo y restringe su movimiento, también apaga su aura,activando automaticamente su estado zetsu, previniendo el uso de habilidades Nen. Solo es posible escapar a través de la fuerza bruta. Kurapika se impone una limitación a esta cadena, de manera que solo se puede utilizar para hacer frente a los miembros de la Brigada fantasma (Genei Ryodan). Si se rompe esta condición, Kurapika morirá. Se necesitaba esta limitación con el fin de aumentar la fuerza de la capacidad. La cadena es tan fuerte que Uvogin, el más fuerte físicamente se la Brigada, no podía liberarse.",
+          "name":"Chain Jail - Carcel de Cadenas (dedo central)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/f/fc/Kurapika_carcel_de_cadena.png/revision/latest/scale-to-width-down/300?cb=20140702135623&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       },
+       {
+          "description":"Cadena con una bola en su punta, Kurapika utiliza esta habilidad en situaciones normales, con fines defensivos y ofensivos. También es útil para actividades de investigación, como la localización de personas desaparecidas. También utiliza esta cadena para identificar si alguien está mintiendo.",
+          "name":"Dowsing Chain - Cadena de Radiestesia (dedo anular)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/6/6d/Kurapika_cadena_de_radiestesia.png/revision/latest/scale-to-width-down/300?cb=20140702135843&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       },
+       {
+          "description":"La estaca de retribución, la cuchilla en la punta de la cadena, entra en el cuerpo del oponente y se envuelve alrededor del corazón. Kurapika establece dos condiciones y si la víctima rompe cualquiera de ellas, la cadena aplasta el corazón, matándolo. Solo puede ser utilizado mientras los ojos de Kurapika son escarlata. Kurapika tiene una hoja envuelta alrededor de su corazón, que utilizó para establecer las limitaciones para el uso de la Cárcel de Cadenas.",
+          "name":"Judgement Chain - Cadena del Juicio (dedo meñique)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/7/7e/Kurapika_cadena_del_juicio.png/revision/latest/scale-to-width-down/300?cb=20140702140519&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       },
+       {
+          "description":"Cuando los ojos de Kurapika se hacen escarlata, él cambia a ser un especialista. Esta capacidad le permite utilizar todos los tipos de Nen a la eficiencia de 100% (para un Materializador).  Recientemente se reveló que \"Emperor Time\" tiene una restricción que consiste en que mientras esté activado,  cada segundo acorta el tiempo de vida del usuario en una hora.",
+          "name":"Emperor Time",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/6/69/Kurapika_emperador_del_tiempo.png/revision/latest/scale-to-width-down/300?cb=20140702140113&path-prefix=es"
+          ],
+          "type":"Tipo: Especialización"
+       },
+       {
+          "description":"Cadena con forma de jeringa, permite a Kurapika insertarla en un usuario de nen para drenar su aura y dejarlo en un estado similar a Zetsu. Existen 2 condiciones para que esta habilidad funcione en el objetivo:1.- Se debe conocer el tipo de Nen del objetivo.2.- Se debe conocer su habilidad.Ademas de permitirle dejar a su oponente en un estado similar al Zetsu, le otorga la posibilidad de robar la habilidad del oponente y poderla mantener dentro de la jeringa hasta que decida usarla.",
+          "name":"Steal Chain - Cadena de Robo (dedo indice)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/c/c6/Steal_chain.jpg/revision/latest/scale-to-width-down/300?cb=20170623034802&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       },
+       {
+          "description":"Cuando Steal Chain logra drenar el aura del objetivo así como su habilidad, Kurapika activa su \"Emperor Time\" le permite materializar un delfín desde la aguja y este sera el encargado de usar la habilidad robada cuando Kurapika se lo ordene. El Delfín tiene voz y puede aconsejar a Kurapika sobre si puede usar la habilidad en ese momento o no, así como darle detalles de la habilidad, nombre o restricciones que pudiese tener. Existe una restricción con el Delfín, mientras este activo, Kurapika no puede desactivar su \"Emperor Time\" si no ha usado la habilidad robada o haber puesto en modo reposo al Delfín.",
+          "name":"Dolphin - Delfín (Habilidad secundaria de Steal Chain con \"Emperor Time\" activo)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/d/d6/Kurapika_Delf%C3%ADn.png/revision/latest/scale-to-width-down/300?cb=20170623042516&path-prefix=es"
+          ],
+          "type":"Tipo: Materialización"
+       }
+    ]
+ }

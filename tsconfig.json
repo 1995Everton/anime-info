@@ -19,7 +19,7 @@
   "exclude": [
     "dist",
     "node_modules",
-    "**/*.test.ts"
+    "**/__tests__/**/*"
   ],
   "include": [
     "./src/**/*.ts"

@@ -14,9 +14,9 @@ const pages: Pages[] = [
       '?from=Froze',
       '?from=Hijiki',
       '?from=Mamba',
-      '?from=Oonaan',
-      '?from=Shale',
-      '?from=Vegeta'
+      '?from=Oolong',
+      '?from=Shadow+Dragon',
+      '?from=Vegenks'
     ],
     base_url: 'https://dragonball.fandom.com/wiki/Category:Characters'
   }
@@ -33,6 +33,10 @@ class DragonBallCharacter extends CharacterDom {
     const names = english.filter(value => portuguese.indexOf(value) >= 0);
 
     return names.sort();
+  }
+
+  protected customSearch(): string[] {
+    return [];
   }
 }
 

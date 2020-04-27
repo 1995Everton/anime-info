@@ -1,0 +1,110 @@
+{
+    "name":"Gon Freecss",
+    "description":"Gon Freecss (ゴン゠フリークス, Gon Furīkusu) is a Rookie Hunter and the son of Ging Freecss. Finding his father is Gon's motivation in becoming a Hunter.",
+    "height":[
+       "154 cm*(5′1″)"
+    ],
+    "weight":[
+       "49 kg*(107.8 lbs)"
+    ],
+    "alias":[
+       "ゴン゠フリークス",
+       "Gon Furīkusu"
+    ],
+    "japanese_voice":[
+       "Rica Matsumoto (Pilot OVA) ",
+       " Junko Takeuchi (1999) ",
+       " Megumi Han (2011)"
+    ],
+    "gender":[
+       " Male"
+    ],
+    "photo":[
+       {
+          "name":"2011",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/b/b4/Gon-2011.png/revision/latest/scale-to-width-down/204?cb=20120115022050"
+       },
+       {
+          "name":"1999",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/0/02/Gon_1999.png/revision/latest/scale-to-width-down/350?cb=20120715202151"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/a/ae/344_-_Gon_without_Nen.png/revision/latest/scale-to-width-down/229?cb=20140620110018"
+       }
+    ],
+    "age":[
+       "11 (Debut) ",
+       " 12+(Current, contradicts the Timeline)",
+       " 14-15* (by the Timeline)"
+    ],
+    "birthday":"May 5th",
+    "eye_color":[
+       "Brown (Manga; 1999; 2011)"
+    ],
+    "hair_color":[
+       "Greenish Black (Manga; 1999; 2011)"
+    ],
+    "blood_type":"B",
+    "status":"Alive",
+    "occupation":[
+       "Rookie Hunter",
+       "287th Hunter Exam Examinee #405 ",
+       " Heavens Arena Fighter ",
+       " Greed Island Player ",
+       " Kazsule's Alliance Member ",
+       " Chimera Ant Extermination Team Member"
+    ],
+    "affiliation":[
+       "Hunter Association",
+       "Kazsule's Alliance ",
+       " Chimera Ant Extermination Team"
+    ],
+    "relatives":[
+       "Unnamed Great-Grandmother ",
+       " Ging Freecss (Father) ",
+       " Mito Freecss (\"Aunt\"/Foster Mother)* ",
+       " Gon's Mother (Status unknown)"
+    ],
+    "abilities":[
+       "Jajanken: Rock Paper Scissors"
+    ],
+    "nen_type":[
+       "Enhancement"
+    ],
+    "abilities_description":[
+       {
+          "description":"Rock is a close ranged attack, and has the highest power out of Gon's three Jajanken attacks, owing to his natural affinity for Enhancement. To perform it, Gon focuses aura in his fist with Ko, chanting as he readies the attack. If he has time to build up his Ren, the punch will be even more powerful.which leads to his aura output being increased for the duration of the ability. Gon was able to knock out Knuckle with this attack, despite the latter using Ko to defend himself, and also to send Hollow flying off into the distance (all the way to NGL, according to him).",
+          "name":"Rock (グー,, Gū)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/1/12/Jajanken.gif/revision/latest?cb=20151108011554"
+          ],
+          "type":"Type: Enhancement"
+       },
+       {
+          "description":"Scissors, Gon's mid-ranged Jajanken attack, requires him to transmute his aura into a long blade which he extends from his outstretched middle and pointer fingers. With the advantage of surprise, it was able to cut through a defense that had been estimated to be able to counter Rock.",
+          "name":"Scissors (チー,, Chī)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/a/a1/Gon_Freecss_Scissor.gif/revision/latest?cb=20151108013320"
+          ],
+          "type":"Type: Transmutation"
+       },
+       {
+          "description":"Paper is Gon's long-ranged Jajanken attack. He uses his Emission skills to hurl aura from his open palm as a spherical projectile. Due to Gon being an Enhancer and Paper requiring Emission, a different Nen type, it has less than one-fourth of the power of Rock, despite the two abilities consuming the same amount of aura,",
+          "name":"Paper (パー,, Pā)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/0/0c/Jajanken_paper.gif/revision/latest?cb=20151108014257"
+          ],
+          "type":"Type: Emission"
+       },
+       {
+          "description":"By forming a Vow",
+          "name":"Limitation Transformation*",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/d/d6/Adult_Gon_Anime.png/revision/latest/scale-to-width-down/250?cb=20140527193545",
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/7/7c/131_-_Gon_Final_Jajanken.png/revision/latest/scale-to-width-down/250?cb=20140528032304"
+          ],
+          "type":"Type: Unknown"
+       }
+    ]
+ }

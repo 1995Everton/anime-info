@@ -1,0 +1,170 @@
+{
+    "name":"Kurapika",
+    "description":"Kurapika (クラピカ, Kurapika) is the last survivor of the Kurta Clan. He is a Blacklist Hunter and the current leader of the organization founded by Light Nostrade. He is a member of the Zodiacs with the codename \"Rat\" (子(ね), Ne). His goal is to avenge his clan and recover the remaining Scarlet Eyes.",
+    "height":[
+       "171 cm*(5′7″)"
+    ],
+    "weight":[
+       "59 kg*(129.8 lbs)"
+    ],
+    "alias":[
+       "クラピカ",
+       "Kurapika"
+    ],
+    "japanese_voice":[
+       "Noriko Hidaka (Pilot OVA) ",
+       " Yuki Kaida (1999) ",
+       " Miyuki Sawashiro (2011)"
+    ],
+    "gender":[
+       " Male"
+    ],
+    "photo":[
+       {
+          "name":"2011",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/4/4c/KurapikaFullbody.png/revision/latest/scale-to-width-down/212?cb=20170719232718"
+       },
+       {
+          "name":"1999",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/5/58/Kurapika_1999_Design.png/revision/latest?cb=20200308211945"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/0/09/Chap_102_-_Kurapika.png/revision/latest/scale-to-width-down/166?cb=20180603145028"
+       }
+    ],
+    "age":[
+       "17*(Debut)"
+    ],
+    "birthday":"April 4th",
+    "eye_color":[
+       "Brown (Manga) ",
+       " Blue (1999) ",
+       " Grey (2011) ",
+       " Scarlet (Usually when angered)"
+    ],
+    "hair_color":[
+       "Blond (Manga; 1999; 2011)"
+    ],
+    "blood_type":"AB*",
+    "status":"Alive",
+    "occupation":[
+       "Blacklist Hunter ",
+       " Nostrade Family Boss ",
+       " Zodiac (Rat) ",
+       " Royal Bodyguard for Prince Woble Hui Guo Rou ",
+       " Nen Teacher",
+       "287th Hunter Exam Examinee #404 ",
+       " Nostrade Family Bodyguard ",
+       " 289th Hunter Exam 1st &amp; Final Phase Examiner"
+    ],
+    "affiliation":[
+       "Hunter Association ",
+       " Nostrade Family ",
+       " Zodiacs (Intelligence Team) ",
+       " Oito Hui Guo Rou",
+       "Kurta Clan ",
+       " Izunavi (Master)"
+    ],
+    "relatives":[
+       "Unnamed Father (Deceased) ",
+       " Unnamed Mother (Deceased)"
+    ],
+    "abilities":[
+       "Holy Chain",
+       "Steal Chain",
+       " Little Eye (Stolen; Former) Air Blow (Stolen; Former) Erigeron (\"Stolen\"; Former)",
+       "Chain Jail",
+       "Dowsing Chain",
+       "Judgment Chain",
+       "Emperor Time",
+       "Stealth Dolphin"
+    ],
+    "nen_type":[
+       "Conjuration ",
+       " Specialization (When eyes are scarlet)"
+    ],
+    "abilities_description":[
+       {
+          "description":"Shaped like a ball and chain, Kurapika uses this frequently under normal situations, for defensive and offensive purposes.",
+          "name":"Dowsing Chain (導く薬指の鎖(ダウジングチェーン), The Guiding Ring Finger Chain)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/9/9f/Dowsing_chain_2011.jpg/revision/latest/scale-to-width-down/250?cb=20120722044021"
+          ],
+          "type":"Type: Conjuration"
+       },
+       {
+          "description":"Shaped like a hook, this very durable chain is designed to envelop and restrain Spiders.",
+          "name":"Chain Jail (束縛する中指の鎖(チェーンジェイル), The Restraining Middle Finger Chain)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/0/0e/Uvogin_Chained.jpg/revision/latest/scale-to-width-down/250?cb=20170708222455"
+          ],
+          "type":"Type: Conjuration"
+       },
+       {
+          "description":"When Kurapika's eyes shift into scarlet, he changes from a Conjurer to a Specialist. This ability allows him to utilize all the types of Nen to 100% efficiency (for a Conjurer).Kurapika explains this using the terms \"Level\", \"Force\", and \"Accuracy\": his \"Levels\" in the various Nen categories remain the same during Emperor Time, but his \"Force\" and \"Accuracy\" for every category are raised to 100%. Thus, if Kurapika's \"Level\" in Conjuration was 10, his \"Level\" in Emission (the polar opposite aura type) would remain 4 at the most, but his \"Force\" and \"Accuracy\" in any Emission ability would increase from 40% to 100%, making him evenly matched against a Level 4 Emitter.",
+          "name":"Emperor Time (絶対時間(エンペラータイム), Absolute Time)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/d/de/EmperorTime.png/revision/latest/scale-to-width-down/250?cb=20130424231729"
+          ],
+          "type":"Type: Specialization"
+       },
+       {
+          "description":"Shaped like a cross, it cures wounds by drawing from Enhancement abilities. When Kurapika is in his Specialist state, it can heal serious injuries, such as a fractured arm, within seconds.",
+          "name":"Holy Chain (癒す親指の鎖(ホーリーチェーン), The Healing Thumb Chain)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/b/b2/HolyChain.png/revision/latest/scale-to-width-down/250?cb=20130424233045"
+          ],
+          "type":"Type: Conjuration and Enhancement"
+       },
+       {
+          "description":"​The Stake of Retribution, a blade on the end of this chain, enters the victim's body and wraps around their heart. Kurapika gives the victim an order, which, if violated, results in the Stake of Retribution piercing the victim's heart, killing them.",
+          "name":"Judgment Chain (律する小指の鎖(ジャッジメントチェーン), The Arbiter Little Finger Chain)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/3/30/JudgmentChain.png/revision/latest/scale-to-width-down/250?cb=20130424232441"
+          ],
+          "type":"Type: Conjuration, Emission, and Manipulation"
+       },
+       {
+          "description":"Shaped like a syringe, upon piercing the body of the target this chain drains their aura and steals one of their Nen abilities. While their aura is being drained, the target is forced into a state similar to Zetsu. The process appears to be very painful for them. The target is unable to use the stolen ability until it is returned to them. It is unknown if, aside from piercing the target with the chain, Kurapika must fulfill other conditions: thus far, he has stolen two abilities, one after the owner's Nen type had been revealed and the general mechanics of the ability explained,",
+          "name":"Steal Chain (奪う人差し指の鎖(スチールチェーン), The Thieving Index Finger Chain)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/e/eb/Steal_Chain.jpg/revision/latest/scale-to-width-down/250?cb=20170802142822"
+          ],
+          "type":"Type: Conjuration"
+       },
+       {
+          "description":"By activating Emperor Time, Kurapika can summon a dolphin-like construct with a syringe on each pectoral fin that is visble and audible only to himself. This construct can \"equip\" and analyze the stolen ability, informing Kurapika of its name, functions, and basic conditions. Kurapika can then use the stolen ability for himself",
+          "name":"Stealth Dolphin (人差し指の絶対時間(ステルスドルフィン), The Index Finger's Emperor Time)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/2/2f/Steal_Chain2.png/revision/latest/scale-to-width-down/250?cb=20170622102358",
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/3/3c/Chap_364_-_Oito_and_Nen_Dolphin.png/revision/latest/scale-to-width-down/250?cb=20170714151947"
+          ],
+          "type":"Type: Specialization"
+       },
+       {
+          "description":"An ability Kurapika stole from Sayird via his index finger chain",
+          "name":"Little Eye (裏窓(リトルアイ), Rear Window)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/7/79/Roach.jpg/revision/latest/scale-to-width-down/250?cb=20180220152810"
+          ],
+          "type":"Type: Emission and Manipulation"
+       },
+       {
+          "description":"An ability Kurapika stole from Vincent via his index finger chain. Little is known about it. The original user attempted to activate it through his left palm in order to break the guard of a Nen user who was capable of stopping bullets with his aura. It does not seem to require direct contact with the target to work.",
+          "name":"Air Blow (虚空拳(エアブロウ), Empty Air Fist)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/5/5e/Vincent_Air_blow.jpg/revision/latest/scale-to-width-down/250?cb=20170718172428"
+          ],
+          "type":"Type: Unknown"
+       },
+       {
+          "description":"An ability Kurapika \"stole\" from Bill, with his permission, via his index finger chain. Kurapika transferred Bill's Nen to other individuals to awaken their Nen during the Water Divination ceremony. The ability dramatically accelerates the growth of a living being when the user brings the palms of their hands close to it. By using the ability on a seed inside a glass of water, Bill made it sprout in mere moments. Bill told Maor that he can use Erigeron on humans to improve their Nen abilities, although the effects on untrained or unskilled individuals are weak.",
+          "name":"Erigeron (球根(ハルジオン), Bulb)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/e/ed/Halcyon.png/revision/latest/scale-to-width-down/250?cb=20181109182509"
+          ],
+          "type":"Type: Enhancement"
+       }
+    ]
+ }

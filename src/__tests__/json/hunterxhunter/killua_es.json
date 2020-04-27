@@ -1,0 +1,104 @@
+{
+    "name":"Killua Zoldyck",
+    "description":"Killua Zoldyck (キルア・ゾルディック, Kirua Zorudikku) es el coprotagonista y el mejor amigo de Gon Freecss. Él es el tercero de los cinco hijos de la familia Zoldyck.",
+    "height":[
+       "158 cm (1999)",
+       "1.57 cm (2011)"
+    ],
+    "weight":[
+       "43 kg"
+    ],
+    "alias":[
+       "キルア・ゾルディック",
+       "Kirua Zorudikku"
+    ],
+    "japanese_voice":[
+       "Kanako Mitsuhashi (1999)",
+       "Mariya Ise (2011)"
+    ],
+    "gender":[
+       " Masculino"
+    ],
+    "photo":[
+       {
+          "name":"2011",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/7/7c/Killua-2011.png/revision/latest/scale-to-width-down/190?cb=20121113132331&path-prefix=es"
+       },
+       {
+          "name":"1999",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/d/db/Killua_1999.png/revision/latest/scale-to-width-down/247?cb=20130530141716&path-prefix=es"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/f/fa/Killua-yoyo_manga.jpg/revision/latest/scale-to-width-down/350?cb=20141104022055&path-prefix=es"
+       }
+    ],
+    "age":[
+       "12 (Comienzo del anime)",
+       "11 (Comienzo del manga)",
+       "13-14 (Actualmente en el manga)",
+       "13(Actualmente en el anime)"
+    ],
+    "birthday":"7 de Julio (Manga - 2011)15 de Junio (1999)",
+    "eye_color":[
+       "Azul (1999 - 2011)",
+       "Verde (OVA)"
+    ],
+    "hair_color":[
+       "Plateado"
+    ],
+    "blood_type":"A",
+    "status":null,
+    "occupation":[
+       "Asesino Zoldyck (Antes)",
+       " Cazador"
+    ],
+    "affiliation":[
+ 
+    ],
+    "relatives":[
+       "Maha Zoldyck (Tatarabuelo)",
+       "Zzigg Zoldyck (Bisabuelo)",
+       "Zeno Zoldyck (Abuelo)",
+       "Silva Zoldyck (Padre)",
+       "Kikyo Zoldyck (Madre)",
+       "Illumi Zoldyck (Hermano Mayor)",
+       "Milluki Zoldyck (Hermano Mayor)",
+       "Alluka Zoldyck (Hermano Menor)",
+       "Kalluto Zoldyck (Hermano Menor)"
+    ],
+    "abilities":[
+       "Narukami (落雷) ",
+       " Izutsushi (雷掌)",
+       "Kanmuru (神速):Denkōsekka (電光石火)Shippūjinrai (疾風迅雷)"
+    ],
+    "nen_type":[
+       "Transformación"
+    ],
+    "abilities_description":[
+       {
+          "description":"La primera y más básica capacidad en desarrollar Killua. Como su nombre indica, Killua es capaz de electrocutar a un rival tocándolo con sus palmas.",
+          "name":"Palma Relámpago (イズツシ, Izutsushi)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/1/17/Killua_palma_relampago.png/revision/latest/scale-to-width-down/230?cb=20140426211043&path-prefix=es"
+          ],
+          "type":"Tipo: Transformacion"
+       },
+       {
+          "description":"Una evolución natural de su capacidad Palma Relámpago, Killua también es capaz de proyectar un gran rayo de luz de sus manos, golpeando a un adversario con la electricidad a distancia después de saltar en el aire. El nombre japonés de la capacidad, Narukami, viene del famoso Kabuki  Narukami Fudô Kitayama Zakura, en la que el personaje Narukami se transforma en un dios del trueno, al final del cuarto acto.",
+          "name":"Relampago (ナルカミ,Narukami)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/c/cb/Killua_narukami.png/revision/latest/scale-to-width-down/230?cb=20140609231834&path-prefix=es"
+          ],
+          "type":"Tipo: Transformacion"
+       },
+       {
+          "description":"Desarrollado por Killua durante su lucha contra los Hermanos Ortho. Con su cabello, sus manos y pies cambiado su aura en tipo eléctrico, su capacidad Kanmuru le permite reaccionar y mover su cuerpo a velocidades que normalmente sería imposible (incluso en el universo Hunter x Hunter). Esta capacidad cambia el aura de Killua en un campo capaz de transmitir todos los impulsos eléctricos de su cerebro en una línea recta directamente a la parte del cuerpo que quiere usar, evitando completamente su sistema nervioso.Se compone en dos partes: Velocidad del Relampago (电光石火, Denkōsekka): La capacidad de mover su cuerpo de acuerdo a su propia voluntad, se utiliza para recorrer largas distancias a gran velocidad. Torbellino (疾风迅雷, Shippūjinrai): La capacidad de detectar los movimientos de su opositor y reaccionar su cuerpo de forma automática, el cual usa para esquivar los ataques enemigos con velocidad y sincronización perfecta.Kanmuru sólo se puede utilizar durante un corto periodo de tiempo antes de necesitar ser recargado.",
+          "name":"Velocidad de Dios (カンムル, Kanmuru)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/c/c8/Killua_Kanmuru.png/revision/latest/scale-to-width-down/180?cb=20140426213955&path-prefix=es"
+          ],
+          "type":"Tipo: Transformacion"
+       }
+    ]
+ }

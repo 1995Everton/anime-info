@@ -40,6 +40,10 @@
     <td>One Punch Man</td>
     <td style="text-align: center">+ 135</td>
   </tr>
+  <tr>
+    <td>Hunter x Hunter</td>
+    <td style="text-align: center">+ 96</td>
+  </tr>
 </table>
 
 
@@ -119,6 +123,7 @@ const naruto = new Naruto({ lang : "es" });
     <th class="tg-baqh" style="text-align: center">Naruto</th>
     <th class="tg-baqh" style="text-align: center">Dragon Ball Z</th>
     <th class="tg-baqh" style="text-align: center">One Punch Man</th>
+    <th class="tg-baqh" style="text-align: center">Hunter x Hunter</th>
   </tr>
   <tr>
     <td class="tg-c3ow"><a href="https://www.fandom.com/explore-pt-br?uselang=pt-br">
@@ -128,6 +133,7 @@ const naruto = new Naruto({ lang : "es" });
     <td class="tg-baqh"  style="text-align: center">pr-br</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
     <td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
   </tr>
   <tr>
@@ -139,6 +145,7 @@ const naruto = new Naruto({ lang : "es" });
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>
   <tr>
     <td class="tg-c3ow">
@@ -147,6 +154,7 @@ const naruto = new Naruto({ lang : "es" });
 	</td>
     <td class="tg-baqh"  style="text-align: center">en</td>
     <td class="tg-baqh" style="text-align: center; color: red;font-size: 25px">✖</td>
+    <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
     <td class="tg-baqh" style="text-align: center; color: green;font-size: 25px">✔</td>
   </tr>

@@ -1,0 +1,105 @@
+{
+    "name":"Gon Freecss",
+    "description":"Gon Freecss (ゴン = フリークス, Gon Furīkusu) es el protagonista de la serie de manga y anime Hunter × Hunter. Está en búsqueda de su padre, el famoso cazador Ging Freecss.",
+    "height":[
+       "1.54 cm (1999)",
+       "1.57 cm (2011)"
+    ],
+    "weight":[
+       "45 kg"
+    ],
+    "alias":[
+       "ゴン=フリークス",
+       "Gon Furīkusu"
+    ],
+    "japanese_voice":[
+       "Rica Matsumoto (Piloto OVA)",
+       "Junko Takeuchi (1999)",
+       "Megumi Han (2011)"
+    ],
+    "gender":[
+       " Masculino"
+    ],
+    "photo":[
+       {
+          "name":"2011",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/b/b4/Gon-2011.png/revision/latest/scale-to-width-down/204?cb=20130530222837&path-prefix=es"
+       },
+       {
+          "name":"1999",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/0/02/Gon_1999.png/revision/latest/scale-to-width-down/350?cb=20130530222915&path-prefix=es"
+       },
+       {
+          "name":"Manga",
+          "icon":"https://vignette.wikia.nocookie.net/hunterxhunter/images/6/6a/Gon%27s_fishingrod.png/revision/latest/scale-to-width-down/204?cb=20180718035240&path-prefix=es"
+       }
+    ],
+    "age":[
+       "12 (Comienzo del anime)",
+       "11 (Comienzo del manga)",
+       "14 (Actualmente en el manga)",
+       "13 (Actualmente en el anime)"
+    ],
+    "birthday":"5 de Mayo",
+    "eye_color":[
+       "Café"
+    ],
+    "hair_color":[
+       "Negro Verdoso"
+    ],
+    "blood_type":"B",
+    "status":null,
+    "occupation":[
+       "Cazador"
+    ],
+    "affiliation":[
+ 
+    ],
+    "relatives":[
+       "Ging Freecss (Padre)",
+       "Mito Freecss (Tia)",
+       "Abe (Bisabuela)",
+       "Don Freecss (Antepasado)"
+    ],
+    "abilities":[
+       "Jajanken (ジャジャン拳):Piedra (グー)Papel (パー)Tijera (チー)"
+    ],
+    "nen_type":[
+       "Intensificación"
+    ],
+    "abilities_description":[
+       {
+          "description":"Piedra es un ataque de corta distancia, y tiene el poder más fuerte entre los tres debido a la afinidad natural de Gon como un intensificador. Para realizarlo, Gon centra el aura en su puño con Ko, la técnica se ve reforzada si Gon construye su aura con&nbsp;Ren&nbsp;antes de atacar,",
+          "name":"Jajanken: Piedra (グー, Gū)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/9/90/Gon_Jajanken-7.png/revision/latest/scale-to-width-down/300?cb=20140411212312&path-prefix=es"
+          ],
+          "type":"Tipo: Intensificación"
+       },
+       {
+          "description":"Tijeras se forma mediante la ampliación de su índice y anular. Gon usa Transformación para transformar su aura en una larga hoja de aura que se extiende desde los dos dedos. Es un ataque de rango medio, y no tan potente como Piedra, aunque puede cortar a través de lo que la Piedra no puede romper.",
+          "name":"Jajanken: Tijeras (チー, Chī)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/c/ca/Gon_tijeras_2011.gif/revision/latest?cb=20140412232210&path-prefix=es"
+          ],
+          "type":"Tipo: Transformacion"
+       },
+       {
+          "description":"Para ello, Gon usa sus habilidades de emisión para proyectar su aura con sus enemigos como un proyectil. Papel utiliza la palma abierta para emitir el aura. Debido a que Gon es un intensificador y Papel requiere emisión, un tipo diferente de aura, es más débil que la piedra, pese a que las dos técnicas consumen la misma cantidad de aura.como se demuestra en su batalla con Knuckle. Puede ser usada para tipos pinza.",
+          "name":"Jajanken: Papel (パー, Pā)",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/4/41/Gon_Jajanken_Papel.png/revision/latest/scale-to-width-down/300?cb=20140412232828&path-prefix=es"
+          ],
+          "type":"Tipo: Emision"
+       },
+       {
+          "description":"Luego de formar un voto",
+          "name":"Transformación de limitación",
+          "photo":[
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/0/0d/Gon_adulto_Anime.png/revision/latest/scale-to-width-down/250?cb=20140528050911&path-prefix=es",
+             "https://vignette.wikia.nocookie.net/hunterxhunter/images/b/bd/Gon_adulto_manga_%28color%29.png/revision/latest/scale-to-width-down/250?cb=20190314035554&path-prefix=es"
+          ],
+          "type":"Tipo: Mejora"
+       }
+    ]
+ }
