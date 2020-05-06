@@ -102,6 +102,13 @@ const itachi = await naruto.getCharacter("Itachi_Uchiha",{
 ```
 Ambos recebem um array de string com o nome exato da propriedade escolhida.
 
+### 💡 Extras
+
+Caso você não tenha experiência com desenvolvimento de API usando NodeJs ou queira um exemplo prático de uso do ```anime-info```, estarei deixando disponível esses repositórios:
+
+-  [API Versão Javascript](https://github.com/1995Everton/anime-info-demo-api/tree/master)
+-  [API Versão Typescript](https://github.com/1995Everton/anime-info-demo-api/tree/master-typescript)
+
 ## 🌎 Internacionalização
 
 ```ts
