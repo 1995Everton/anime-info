@@ -49,7 +49,7 @@
 
 ## ✨ Demo
 
-- Site: [Anime Info Demo](https://anime-info-demo.herokuapp.com/)
+- Site: [Anime Info Demo](https://1995everton.github.io/anime-info-demo/)
 - Repositório [Anime Info Demo](https://github.com/1995Everton/anime-info-demo)
 
 ## 👉 Instalação
